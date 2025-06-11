@@ -1,0 +1,18 @@
+{
+"pack": {
+  "description": "worldgen",
+  "pack_format": 15
+},
+"filter": {
+  "block": [
+    {
+      "namespace": "atmospheric",
+      "path": "blueprint/modded_biome_slices"
+    },
+    {
+      "namespace": "autumnity",
+      "path": "blueprint/modded_biome_slices"
+    }
+  ]
+}
+}
