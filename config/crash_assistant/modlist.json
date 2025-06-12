@@ -47,6 +47,10 @@
     "modId": "bookshelf",
     "version": "20.2.13"
   },
+  "caverns_and_chasms-1.20.1-2.0.0.jar": {
+    "modId": "caverns_and_chasms",
+    "version": "2.0.0"
+  },
   "citadel-2.6.1-1.20.1.jar": {
     "modId": "citadel",
     "version": "2.6.1"

@@ -403,108 +403,226 @@
                     }
                   }
                 },
-                 {
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
+                      "minecraft:swamp",
+                      "regions_unexplored:fen",
+                      "biomesoplenty:bayou"
+                    ]
+                  },
+                  "then_run": {
                     "type": "minecraft:condition",
                     "if_true": {
-                      "type": "minecraft:biome",
-                      "biome_is": [
-                        "minecraft:swamp",
-                        "regions_unexplored:fen",
-                        "biomesoplenty:bayou"
-                      ]
+                      "type": "minecraft:y_above",
+                      "add_stone_depth": false,
+                      "anchor": {
+                        "absolute": 62
+                      },
+                      "surface_depth_multiplier": 0
                     },
                     "then_run": {
                       "type": "minecraft:condition",
                       "if_true": {
-                        "type": "minecraft:y_above",
-                        "add_stone_depth": false,
-                        "anchor": {
-                          "absolute": 62
-                        },
-                        "surface_depth_multiplier": 0
+                        "type": "minecraft:not",
+                        "invert": {
+                          "type": "minecraft:y_above",
+                          "add_stone_depth": false,
+                          "anchor": {
+                            "absolute": 75
+                          },
+                          "surface_depth_multiplier": 0
+                        }
                       },
                       "then_run": {
                         "type": "minecraft:condition",
                         "if_true": {
-                          "type": "minecraft:not",
-                          "invert": {
-                            "type": "minecraft:y_above",
-                            "add_stone_depth": false,
-                            "anchor": {
-                              "absolute": 75
-                            },
-                            "surface_depth_multiplier": 0
-                          }
+                          "type": "minecraft:noise_threshold",
+                          "max_threshold": 1.7976931348623157E308,
+                          "min_threshold": 0.0,
+                          "noise": "minecraft:surface_swamp"
                         },
                         "then_run": {
-                          "type": "minecraft:condition",
-                          "if_true": {
-                            "type": "minecraft:noise_threshold",
-                            "max_threshold": 1.7976931348623157E308,
-                            "min_threshold": 0.0,
-                            "noise": "minecraft:surface_swamp"
-                          },
-                          "then_run": {
-                            "type": "minecraft:block",
-                            "result_state": {
-                              "Name": "minecraft:water",
-                              "Properties": {
-                                "level": "0"
-                              }
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:water",
+                            "Properties": {
+                              "level": "0"
                             }
                           }
                         }
                       }
                     }
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
+                      "biomesoplenty:crag"
+                    ]
                   },
-                  {
-                          "type": "minecraft:condition",
-                          "if_true": {
-                            "type": "minecraft:biome",
-                            "biome_is": [
-                              "biomesoplenty:crag"
-                            ]
+                  "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:vertical_gradient",
+                          "false_at_and_above": {
+                            "above_bottom": 300
                           },
-                          "then_run": {
-                            "type": "minecraft:sequence",
-                            "sequence": [
-                              {
-                                "type": "minecraft:condition",
-                                "if_true": {
-                                  "type": "minecraft:noise_threshold",
-                                  "max_threshold": 1.7976931348623157E308,
-                                  "min_threshold": 0.21212121212121213,
-                                  "noise": "minecraft:surface"
-                                },
-                                "then_run": {
-                                  "type": "minecraft:block",
-                                  "result_state": {
-                                    "Name": "minecraft:coarse_dirt"
-                                  }
-                                }
-                              },
-                              {
-                                "type": "minecraft:condition",
-                                "if_true": {
-                                  "type": "minecraft:noise_threshold",
-                                  "max_threshold": 1.7976931348623157E308,
-                                  "min_threshold": -0.11515151515151514,
-                                  "noise": "minecraft:surface"
-                                },
-                                "then_run": {
-                                  "type": "minecraft:block",
-                                  "result_state": {
-                                    "Name": "minecraft:podzol",
-                                    "Properties": {
-                                      "snowy": "false"
-                                    }
-                                  }
-                                }
-                              }
-                            ]
+                          "random_name": "girlfriendcraft:cragcobble5",
+                          "true_at_and_below": {
+                            "above_bottom": 0
+                          }
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:cobblestone"
                           }
                         }
-
+                      },
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:vertical_gradient",
+                          "false_at_and_above": {
+                            "above_bottom": 300
+                          },
+                          "random_name": "girlfriendcraft:cragcobble4",
+                          "true_at_and_below": {
+                            "above_bottom": 0
+                          }
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:cobblestone"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:vertical_gradient",
+                          "false_at_and_above": {
+                            "above_bottom": 300
+                          },
+                          "random_name": "girlfriendcraft:cragcobble3",
+                          "true_at_and_below": {
+                            "above_bottom": 0
+                          }
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:mossy_cobblestone"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:vertical_gradient",
+                          "false_at_and_above": {
+                            "above_bottom": 200
+                          },
+                          "random_name": "girlfriendcraft:crag2",
+                          "true_at_and_below": {
+                            "above_bottom": 0
+                          }
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:tuff"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:vertical_gradient",
+                          "false_at_and_above": {
+                            "above_bottom": 200
+                          },
+                          "random_name": "girlfriendcraft:crag3",
+                          "true_at_and_below": {
+                            "above_bottom": 0
+                          }
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:mossy_cobblestone"
+                          }               
+                        }
+                      },
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:vertical_gradient",
+                          "false_at_and_above": {
+                            "above_bottom": 200
+                          },
+                          "random_name": "girlfriendcraft:crag4",
+                          "true_at_and_below": {
+                            "above_bottom": 0
+                          }
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:stone"
+                          }               
+                        }
+                      },
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:vertical_gradient",
+                          "false_at_and_above": {
+                            "above_bottom": 200
+                          },
+                          "random_name": "girlfriendcraft:crag5",
+                          "true_at_and_below": {
+                            "above_bottom": 0
+                          }
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:andesite"
+                          }               
+                        }
+                      },
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:vertical_gradient",
+                          "false_at_and_above": {
+                            "above_bottom": 200
+                          },
+                          "random_name": "girlfriendcraft:crag6",
+                          "true_at_and_below": {
+                            "above_bottom": 0
+                          }
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "caverns_and_chasms:rocky_dirt"
+                          }               
+                        }
+                      }
+                    ]
+                  }              
+                }
               ]
             }
           },
