@@ -1,0 +1,167 @@
+{
+  "type": "minecraft:min",
+  "argument1": {
+    "type": "minecraft:squeeze",
+    "argument": {
+      "type": "minecraft:mul",
+      "argument1": 0.64,
+      "argument2": {
+        "type": "minecraft:interpolated",
+        "argument": {
+          "type": "minecraft:blend_density",
+          "argument": {
+            "type": "minecraft:add",
+            "argument1": 0.1171875,
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": {
+                "type": "minecraft:y_clamped_gradient",
+                "from_y": -64,
+                "to_y": -40,
+                "from_value": 0,
+                "to_value": 1
+              },
+              "argument2": {
+                "type": "minecraft:add",
+                "argument1": -0.1171875,
+                "argument2": {
+                  "type": "minecraft:add",
+                  "argument1": -0.078125,
+                  "argument2": {
+                    "type": "minecraft:mul",
+                    "argument1": {
+                      "type": "minecraft:y_clamped_gradient",
+                      "from_y": 240,
+                      "to_y": 256,
+                      "from_value": 1,
+                      "to_value": 0
+                    },
+                    "argument2": {
+                      "type": "minecraft:add",
+                      "argument1": 0.078125,
+                      "argument2": "minecraft:overworld/sloped_cheese"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "argument2": {
+    "type": "minecraft:interpolated",
+    "argument": {
+      "type": "minecraft:cache_once",
+      "argument": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:mul",
+          "argument1": -0.001,
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": {
+              "type": "minecraft:y_clamped_gradient",
+              "from_y": -64,
+              "to_y": -40,
+              "from_value": 0,
+              "to_value": 1
+            },
+            "argument2": {
+              "type": "minecraft:clamp",
+              "max": 1,
+              "min": 0,
+              "input": {
+                "type": "minecraft:max",
+                "argument1": {
+                  "type": "minecraft:mul",
+                  "argument1": 6,
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": {
+                      "type": "minecraft:cache_once",
+                      "argument": "minecraft:overworld/depth"
+                    },
+                    "argument2": -0.03
+                  }
+                },
+                "argument2": {
+                  "type": "minecraft:add",
+                  "argument1": "cave_world:caves/cool_entrances",
+                  "argument2": -10
+                }
+              }
+            }
+          }
+        },
+        "argument2": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:square",
+            "argument": {
+              "type": "minecraft:add",
+              "argument1": "cave_world:caves/cave_cached",
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": -1,
+                "argument2": {
+                  "type": "minecraft:shifted_noise",
+                  "noise": "minecraft:cave",
+                  "xz_scale": 1,
+                  "y_scale": 1,
+                  "shift_x": 1,
+                  "shift_y": 0,
+                  "shift_z": 0
+                }
+              }
+            }
+          },
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:square",
+              "argument": {
+                "type": "minecraft:add",
+                "argument1": "cave_world:caves/cave_cached",
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": -1,
+                  "argument2": {
+                    "type": "minecraft:shifted_noise",
+                    "noise": "minecraft:cave",
+                    "xz_scale": 1,
+                    "y_scale": 1,
+                    "shift_x": 0,
+                    "shift_y": 1,
+                    "shift_z": 0
+                  }
+                }
+              }
+            },
+            "argument2": {
+              "type": "minecraft:square",
+              "argument": {
+                "type": "minecraft:add",
+                "argument1": "cave_world:caves/cave_cached",
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": -1,
+                  "argument2": {
+                    "type": "minecraft:shifted_noise",
+                    "noise": "minecraft:cave",
+                    "xz_scale": 1,
+                    "y_scale": 1,
+                    "shift_x": 0,
+                    "shift_y": 0,
+                    "shift_z": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
