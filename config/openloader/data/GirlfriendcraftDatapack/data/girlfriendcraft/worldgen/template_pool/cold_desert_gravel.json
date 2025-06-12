@@ -1,0 +1,13 @@
+{
+    "name":"girlfriendcraft:cold_desert_gravel",
+    "fallback":"minecraft:empty",
+    "elements": [{
+        "weight":1,
+        "element":{
+            "location": "girlfriendcraft:cold_desert_gravel/cold_desert_gravel",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type":"minecraft:single_pool_element"
+        }
+    }]
+}

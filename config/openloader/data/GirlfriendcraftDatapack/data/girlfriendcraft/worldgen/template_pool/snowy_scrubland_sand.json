@@ -1,0 +1,13 @@
+{
+    "name":"girlfriendcraft:snowy_scrubland_sand",
+    "fallback":"minecraft:empty",
+    "elements": [{
+        "weight":1,
+        "element":{
+            "location": "girlfriendcraft:snowy_scrubland_sand/snowy_scrubland_sand",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type":"minecraft:single_pool_element"
+        }
+    }]
+}

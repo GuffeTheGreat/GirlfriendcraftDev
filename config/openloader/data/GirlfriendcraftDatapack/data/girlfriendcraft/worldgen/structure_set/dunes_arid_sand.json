@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 19011220,
+        "separation":1,
+        "spacing":1,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure":"girlfriendcraft:dunes_arid_sand",
+        "weight":1
+    }]
+}
