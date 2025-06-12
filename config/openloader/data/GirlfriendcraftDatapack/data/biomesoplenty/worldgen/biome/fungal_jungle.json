@@ -81,6 +81,9 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane_swamp",
       "minecraft:seagrass_swamp",
+      "biomesoplenty:big_dripleaf",
+      "biomesoplenty:small_dripleaf",
+      "biomesoplenty:flower_rainforest",
       "biomesoplenty:trees_fungal_jungle",
       "biomesoplenty:huge_toadstool",
       "biomesoplenty:small_toadstool",
@@ -89,7 +92,9 @@
       "biomesoplenty:mycelium_splatter",
       "biomesoplenty:patch_sprouts_5",
       "biomesoplenty:patch_grass_12",
-      "biomesoplenty:patch_tall_grass_12"
+      "biomesoplenty:patch_tall_grass_12",
+      "regions_unexplored:elephant_ear_dense",
+      "regions_unexplored:moss_patch_with_water"
     ],
     [
       "minecraft:freeze_top_layer"
