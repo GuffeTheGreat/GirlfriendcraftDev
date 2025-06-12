@@ -6,33 +6,26 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 2.0,
+  "downfall": 0.6,
   "effects": {
     "fog_color": 12638463,
-    "foliage_color": 6016293,
-    "grass_color": 8377405,
+    "foliage_color": 9280363,
+    "grass_color": 9737838,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.jungle"
-    },
-    "sky_color": 7711487,
-    "water_color": 4172478,
-    "water_fog_color": 268844
+    "sky_color": 8364543,
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
   "features": [
     [],
     [
       "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface",
-      "biomesoplenty:lake_water_extra"
+      "minecraft:lake_lava_surface"
     ],
     [
       "minecraft:amethyst_geode"
@@ -69,7 +62,10 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma"
+      "minecraft:underwater_magma",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
+      "biomesoplenty:disk_mud"
     ],
     [],
     [
@@ -78,20 +74,10 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:seagrass_swamp",
-      "biomesoplenty:big_dripleaf",
-      "biomesoplenty:small_dripleaf",
-      "biomesoplenty:trees_rainforest_floodplain",
-      "biomesoplenty:flower_rainforest",
-      "biomesoplenty:patch_lily_pad_15",
-      "biomesoplenty:huge_lily_pad",
-      "biomesoplenty:patch_waterlily_flowers",
-      "biomesoplenty:patch_grass_12",
-      "biomesoplenty:patch_tall_grass_24",
-      "biomesoplenty:patch_watergrass_50",
-      "regions_unexplored:duckweed",
-      "regions_unexplored:flowering_lily",
-      "regions_unexplored:elephant_ear_sparse"
+      "biomesoplenty:trees_muskeg",
+      "biomesoplenty:small_brown_mushroom",
+      "biomesoplenty:mud_splatter",
+      "biomesoplenty:patch_grass_1"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -179,5 +165,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 1.2
+  "temperature": 0.0
 }
