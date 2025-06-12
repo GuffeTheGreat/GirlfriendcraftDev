@@ -1,0 +1,13 @@
+{
+    "name":"girlfriendcraft:deseret_sand",
+    "fallback":"minecraft:empty",
+    "elements": [{
+        "weight":1,
+        "element":{
+            "location": "girlfriendcraft:desert_sand/desert_sand",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type":"minecraft:single_pool_element"
+        }
+    }]
+}
