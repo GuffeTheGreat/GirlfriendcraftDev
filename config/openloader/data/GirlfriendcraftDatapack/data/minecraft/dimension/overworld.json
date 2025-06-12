@@ -683,6 +683,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.26666668
+            ],
+            "continentalness": [
+              -0.19,
+              -0.11
+            ],
+            "erosion": [
+              -0.2225,
+              0.05
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -2333,6 +2363,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              -0.11,
+              0.03
+            ],
+            "erosion": [
+              -0.2225,
+              0.55
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -3803,6 +3863,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.03,
+              0.8
+            ],
+            "erosion": [
+              0.05,
+              0.45
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -5873,6 +5963,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.935,
+              -0.7666667
+            ],
+            "continentalness": [
+              -0.19,
+              -0.11
+            ],
+            "erosion": [
+              -0.375,
+              1
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -6803,6 +6923,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.935,
+              -0.4
+            ],
+            "continentalness": [
+              -0.11,
+              1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -8903,6 +9053,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.7666667,
+              -0.4
+            ],
+            "continentalness": [
+              -0.19,
+              -0.11
+            ],
+            "erosion": [
+              -0.375,
+              0.45
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -9413,6 +9593,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.7666667,
+              -0.4
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -10373,6 +10583,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.56666666,
+              -0.4
+            ],
+            "continentalness": [
+              -0.19,
+              -0.11
+            ],
+            "erosion": [
+              0.45,
+              1
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -11423,6 +11663,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.05
+            ],
+            "continentalness": [
+              -0.11,
+              0.03
+            ],
+            "erosion": [
+              -0.2225,
+              0.55
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -12983,6 +13253,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.05
+            ],
+            "continentalness": [
+              0.03,
+              0.8
+            ],
+            "erosion": [
+              0.05,
+              0.45
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -15383,6 +15683,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.26666668,
+              -0.05
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -18533,6 +18863,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.4
+            ],
+            "continentalness": [
+              -0.11,
+              0.03
+            ],
+            "erosion": [
+              -0.2225,
+              0.45
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -19973,6 +20333,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.26666668
+            ],
+            "continentalness": [
+              0.03,
+              0.8
+            ],
+            "erosion": [
+              0.05,
+              0.55
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -21353,6 +21743,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.26666668
+            ],
+            "continentalness": [
+              0.8,
+              1
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -21833,6 +22253,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.26666668,
+              0.56666666
+            ],
+            "continentalness": [
+              -0.19,
+              -0.11
+            ],
+            "erosion": [
+              -0.2225,
+              1
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -24113,6 +24563,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.26666668,
+              0.4
+            ],
+            "continentalness": [
+              -0.11,
+              0.03
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -25133,6 +25613,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.26666668,
+              0.4
+            ],
+            "continentalness": [
+              0.03,
+              0.8
+            ],
+            "erosion": [
+              0.05,
+              0.45
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -27563,6 +28073,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.56666666
+            ],
+            "continentalness": [
+              -0.19,
+              -0.11
+            ],
+            "erosion": [
+              -0.375,
+              1
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -28973,6 +29513,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.93333334
+            ],
+            "continentalness": [
+              -0.11,
+              1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -32093,6 +32663,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.56666666,
+              0.93333334
+            ],
+            "continentalness": [
+              -0.19,
+              -0.11
+            ],
+            "erosion": [
+              -0.375,
+              0.45
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -32603,6 +33203,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.56666666,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              -0.11
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -33863,6 +34493,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.7666667,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              -0.11
+            ],
+            "erosion": [
+              0.45,
+              1
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -34853,6 +35513,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.93333334,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              -0.11
+            ],
+            "erosion": [
+              -0.2225,
+              1
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -35093,6 +35783,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.93333334,
+              1
+            ],
+            "continentalness": [
+              -0.11,
+              0.03
+            ],
+            "erosion": [
+              -0.2225,
+              0.55
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -37043,6 +37763,36 @@
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:maple_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.93333334,
+              1
+            ],
+            "continentalness": [
+              0.03,
+              0.8
+            ],
+            "erosion": [
+              0.05,
+              0.45
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.7,
               1
             ],
             "depth": [
@@ -42949,7 +43699,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -1,
@@ -42979,7 +43729,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.35,
@@ -43009,7 +43759,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.1,
@@ -43039,7 +43789,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.1,
@@ -43069,7 +43819,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.3,
@@ -43099,7 +43849,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.7,
@@ -43117,6 +43867,36 @@
           "parameters": {
             "weirdness": [
               -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.19,
+              -0.11
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:scorching_caves"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
               -0.26666668
             ],
             "continentalness": [
@@ -43129,7 +43909,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -1,
@@ -43159,7 +43939,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.35,
@@ -43189,7 +43969,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.1,
@@ -43219,7 +43999,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.1,
@@ -43249,7 +44029,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.3,
@@ -43279,7 +44059,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.7,
@@ -43292,6 +44072,36 @@
             "offset": 0
           },
           "biome": "biomesoplenty:glowing_grotto"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.26666668
+            ],
+            "continentalness": [
+              -0.11,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:scorching_caves"
         },
         {
           "parameters": {
@@ -43309,7 +44119,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -1,
@@ -43339,7 +44149,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.35,
@@ -43369,7 +44179,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.1,
@@ -43399,7 +44209,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.1,
@@ -43429,7 +44239,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.3,
@@ -43459,7 +44269,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.7,
@@ -43472,6 +44282,36 @@
             "offset": 0
           },
           "biome": "biomesoplenty:glowing_grotto"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.26666668,
+              -0.05
+            ],
+            "continentalness": [
+              -0.11,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:scorching_caves"
         },
         {
           "parameters": {
@@ -43519,7 +44359,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -1,
@@ -43549,7 +44389,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.35,
@@ -43579,7 +44419,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.1,
@@ -43609,7 +44449,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.1,
@@ -43639,7 +44479,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.3,
@@ -43669,7 +44509,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.7,
@@ -43690,6 +44530,36 @@
               1
             ],
             "continentalness": [
+              -1.05,
+              -0.19
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:scorching_caves"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
               0.03,
               1
             ],
@@ -43699,7 +44569,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -1,
@@ -43729,7 +44599,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.35,
@@ -43759,7 +44629,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.1,
@@ -43789,7 +44659,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.1,
@@ -43819,7 +44689,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.3,
@@ -43849,7 +44719,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.7,
@@ -43862,6 +44732,36 @@
             "offset": 0
           },
           "biome": "biomesoplenty:glowing_grotto"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.375
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:scorching_caves"
         },
         {
           "parameters": {
@@ -43879,7 +44779,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -1,
@@ -43909,7 +44809,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.35,
@@ -43939,7 +44839,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.1,
@@ -43969,7 +44869,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.1,
@@ -43999,7 +44899,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.3,
@@ -44029,7 +44929,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.7,
@@ -44050,6 +44950,36 @@
               1
             ],
             "continentalness": [
+              -0.19,
+              -0.11
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:scorching_caves"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              1
+            ],
+            "continentalness": [
               -0.11,
               1
             ],
@@ -44059,7 +44989,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -1,
@@ -44089,7 +45019,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.35,
@@ -44119,7 +45049,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.1,
@@ -44149,7 +45079,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.1,
@@ -44179,7 +45109,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.3,
@@ -44209,7 +45139,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.7,
@@ -44222,6 +45152,36 @@
             "offset": 0
           },
           "biome": "biomesoplenty:glowing_grotto"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              1
+            ],
+            "continentalness": [
+              -0.11,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:scorching_caves"
         },
         {
           "parameters": {
@@ -44239,7 +45199,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -1,
@@ -44269,7 +45229,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.35,
@@ -44299,7 +45259,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.1,
@@ -44329,7 +45289,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.1,
@@ -44359,7 +45319,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.3,
@@ -44389,7 +45349,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.7,
@@ -44402,6 +45362,36 @@
             "offset": 0
           },
           "biome": "biomesoplenty:glowing_grotto"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.26666668,
+              1
+            ],
+            "continentalness": [
+              -0.11,
+              1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.9,
+              1.1
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:scorching_caves"
         },
         {
           "parameters": {
@@ -44509,7 +45499,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -1,
@@ -44539,7 +45529,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.35,
@@ -44569,7 +45559,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.1,
@@ -44599,7 +45589,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.1,
@@ -44629,7 +45619,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.3,
@@ -44659,7 +45649,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.7,
@@ -44672,6 +45662,36 @@
             "offset": 0
           },
           "biome": "biomesoplenty:glowing_grotto"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -0.375,
+              1
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              1,
+              1.1
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:scorching_caves"
         },
         {
           "parameters": {
@@ -44719,7 +45739,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -1,
@@ -44749,7 +45769,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.35,
@@ -44779,7 +45799,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               -0.1,
@@ -44809,7 +45829,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.1,
@@ -44839,7 +45859,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.3,
@@ -44869,7 +45889,7 @@
             ],
             "temperature": [
               -1,
-              1
+              0.55
             ],
             "humidity": [
               0.7,
@@ -44882,6 +45902,36 @@
             "offset": 0
           },
           "biome": "biomesoplenty:glowing_grotto"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -1.05,
+              1
+            ],
+            "erosion": [
+              -0.375,
+              1
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              1,
+              1.1
+            ],
+            "offset": 0
+          },
+          "biome": "regions_unexplored:scorching_caves"
         }
       ],
       "type": "minecraft:multi_noise"
