@@ -31,9 +31,7 @@
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
-    [
-      "girlfriendcraft:crag_geode"
-    ],
+    [],
     [
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
@@ -82,7 +80,8 @@
     [
       "minecraft:glow_lichen",
       "biomesoplenty:patch_grass_12",
-      "biomesoplenty:patch_tall_grass_24"
+      "biomesoplenty:patch_tall_grass_24",
+      "regions_unexplored:meadow_rock"
     ],
     [
       "minecraft:freeze_top_layer"
