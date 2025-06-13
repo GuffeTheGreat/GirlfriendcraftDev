@@ -17,7 +17,7 @@ const biomeMap = {
     lost_caves: [0.06, $Vec3(0.4, 0.3, 0.3)],
     dripstone_caves: [0.04, $Vec3(0.4, 0.4, 0.4)],
     spider_nest: [0.04, $Vec3(0.4, 0.4, 0.4)],
-    deep_dark: [0.01, $Vec3(0.1, 0.1, 0.1)],
+    deep_dark: [0.01, $Vec3(0.03, 0.03, 0.03)],
     scorching_caves: [0.05, $Vec3(0.5, 0.5, 0.5)],
     glimmering_weald: [0.03, $Vec3(1.0, 1.0, 1.0)],
 
@@ -33,7 +33,10 @@ const biomeMap = {
     glistering_meadow: [0.3, $Vec3(0.7, 0.3, 0.7)],
     infernal_holt: [0.3, $Vec3(0.4, 0.4, 0.4)],
     basalt_deltas: [0.3, $Vec3(0.4, 0.4, 0.4)],
-
+    
+    // Overworld Biomes
+    dark_forest: [0.01, $Vec3(0.08, 0.08, 0.08)],
+    pale_garden: [0.01, $Vec3(0.05, 0.05, 0.05)],
 
 }
 let color = $Vec3(1, 1, 1), light = 0;

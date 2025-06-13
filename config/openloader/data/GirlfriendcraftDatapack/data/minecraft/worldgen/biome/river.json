@@ -81,7 +81,8 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:seagrass_river",
-      "regions_unexplored:duckweed"
+      "regions_unexplored:duckweed",
+      "regions_unexplored:daisies"
     ],
     [
       "minecraft:freeze_top_layer"
