@@ -1382,6 +1382,36 @@
                             }
                           },
                           {
+                              "type": "minecraft:condition",
+                              "if_true": {
+                                "type": "minecraft:biome",
+                                "biome_is": [
+                                  "yungscavebiomes:lost_caves"
+                                ]
+                              },
+                              "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                  "Name": "yungscavebiomes:ancient_sand"
+                                }
+                              }
+                            },
+                            {
+                              "type": "minecraft:condition",
+                              "if_true": {
+                                "type": "minecraft:biome",
+                                "biome_is": [
+                                  "yungscavebiomes:frosted_caves"
+                                ]
+                              },
+                              "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                  "Name": "minecraft:packed_ice"
+                                }
+                              }
+                            },
+                          {
                             "type": "minecraft:condition",
                             "if_true": {
                               "type": "minecraft:biome",
@@ -1616,6 +1646,42 @@
                                   "type": "minecraft:block",
                                   "result_state": {
                                     "Name": "minecraft:deepslate"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                              "type": "minecraft:biome",
+                              "biome_is": [
+                                "yungscavebiomes:frosted_caves"
+                              ]
+                            },
+                            "then_run": {
+                              "type": "minecraft:sequence",
+                              "sequence": [
+                                {
+                                  "type": "minecraft:condition",
+                                  "if_true": {
+                                    "type": "minecraft:stone_depth",
+                                    "offset": 0,
+                                    "surface_type": "ceiling",
+                                    "add_surface_depth": false,
+                                    "secondary_depth_range": 0
+                                  },
+                                  "then_run": {
+                                    "type": "minecraft:block",
+                                    "result_state": {
+                                      "Name": "minecraft:packed_ice"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "quark:permafrost"
                                   }
                                 }
                               ]
@@ -2565,6 +2631,36 @@
                               ]
                             }
                           },
+                          {
+                              "type": "minecraft:condition",
+                              "if_true": {
+                                "type": "minecraft:biome",
+                                "biome_is": [
+                                  "yungscavebiomes:lost_caves"
+                                ]
+                              },
+                              "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                  "Name": "yungscavebiomes:ancient_sandstone"
+                                }
+                              }
+                            },
+                            {
+                              "type": "minecraft:condition",
+                              "if_true": {
+                                "type": "minecraft:biome",
+                                "biome_is": [
+                                  "yungscavebiomes:frosted_caves"
+                                ]
+                              },
+                              "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                  "Name": "quark:permafrost"
+                                }
+                              }
+                            },
                           {
                             "type": "minecraft:condition",
                             "if_true": {
