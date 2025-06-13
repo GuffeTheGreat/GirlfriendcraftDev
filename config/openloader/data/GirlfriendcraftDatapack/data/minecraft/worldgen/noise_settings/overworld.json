@@ -1446,7 +1446,52 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
+                                "galosphere:lichen_caves"
+                              ]
+                            },
+                            "then_run": {
+                              "type": "minecraft:block",
+                              "result_state": {
+                                "Name": "galosphere:lichen_moss"
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                              "type": "minecraft:biome",
+                              "biome_is": [
+                                "galosphere:pink_salt_caves"
+                              ]
+                            },
+                            "then_run": {
+                              "type": "minecraft:block",
+                              "result_state": {
+                                "Name": "galosphere:pink_salt"
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                              "type": "minecraft:biome",
+                              "biome_is": [
                                 "quark:glimmering_weald"
+                              ]
+                            },
+                            "then_run": {
+                              "type": "minecraft:block",
+                              "result_state": {
+                                "Name": "minecraft:deepslate"
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                              "type": "minecraft:biome",
+                              "biome_is": [
+                                "galosphere:crystal_canyons"
                               ]
                             },
                             "then_run": {
@@ -2597,7 +2642,52 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
+                                "galosphere:lichen_caves" 
+                              ]
+                            },
+                            "then_run": {
+                              "type": "minecraft:block",
+                              "result_state": {
+                                "Name": "minecraft:deepslate"
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                              "type": "minecraft:biome",
+                              "biome_is": [
+                                "galosphere:pink_salt_caves" 
+                              ]
+                            },
+                            "then_run": {
+                              "type": "minecraft:block",
+                              "result_state": {
+                                "Name": "galosphere:rose_pink_salt"
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                              "type": "minecraft:biome",
+                              "biome_is": [
                                 "quark:glimmering_weald"
+                              ]
+                            },
+                            "then_run": {
+                              "type": "minecraft:block",
+                              "result_state": {
+                                "Name": "minecraft:deepslate"
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                              "type": "minecraft:biome",
+                              "biome_is": [
+                                "galosphere:crystal_canyons"
                               ]
                             },
                             "then_run": {
