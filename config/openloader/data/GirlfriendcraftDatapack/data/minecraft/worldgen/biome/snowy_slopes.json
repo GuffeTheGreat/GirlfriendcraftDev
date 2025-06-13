@@ -6,18 +6,22 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.6,
+  "downfall": 0.9,
   "effects": {
     "fog_color": 12638463,
-    "foliage_color": 9280363,
-    "grass_color": 9737838,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "sky_color": 8364543,
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.snowy_slopes"
+    },
+    "sky_color": 8560639,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
@@ -56,30 +60,29 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
+      "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-      "biomesoplenty:disk_mud"
+      "minecraft:ore_emerald"
     ],
-    [],
+    [
+      "minecraft:ore_infested"
+    ],
     [
       "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_lava",
+      "minecraft:spring_lava_frozen"
     ],
     [
       "minecraft:glow_lichen",
-      "biomesoplenty:small_brown_mushroom",
-      "biomesoplenty:mud_splatter",
-      "biomesoplenty:patch_grass_1",
-      "regions_unexplored:dead_bog_tree",
-      "regions_unexplored:pine_dead_shrub_mix",
-      "regions_unexplored:moss_patch_with_water_rare"
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -99,10 +102,16 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:frog",
-        "maxCount": 5,
+        "type": "minecraft:rabbit",
+        "maxCount": 3,
         "minCount": 2,
-        "weight": 10
+        "weight": 4
+      },
+      {
+        "type": "minecraft:goat",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 5
       }
     ],
     "misc": [],
@@ -167,5 +176,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.0
+  "temperature": -0.3
 }

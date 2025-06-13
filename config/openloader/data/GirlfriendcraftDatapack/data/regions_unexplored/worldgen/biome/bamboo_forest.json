@@ -6,18 +6,24 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.6,
+  "downfall": 0.8,
   "effects": {
-    "fog_color": 12638463,
-    "foliage_color": 9280363,
-    "grass_color": 9737838,
+    "fog_color": 11652277,
+    "foliage_color": 11140963,
+    "grass_color": 11853428,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "sky_color": 8364543,
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.forest"
+    },
+    "sky_color": 10666421,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
@@ -56,16 +62,15 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
-
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel",
-      "biomesoplenty:disk_mud"
+      "regions_unexplored:disk_sand",
+      "regions_unexplored:disk_clay",
+      "regions_unexplored:disk_gravel"
     ],
     [],
     [
@@ -74,15 +79,21 @@
     ],
     [
       "minecraft:glow_lichen",
-      "biomesoplenty:small_brown_mushroom",
-      "biomesoplenty:mud_splatter",
-      "biomesoplenty:patch_grass_1",
-      "regions_unexplored:dead_bog_tree",
-      "regions_unexplored:pine_dead_shrub_mix",
-      "regions_unexplored:moss_patch_with_water_rare"
+      "regions_unexplored:medium_grass",
+      "minecraft:forest_flowers",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "regions_unexplored:bamboo_tree",
+      "regions_unexplored:pink_flowers",
+      "regions_unexplored:grass",
+      "regions_unexplored:ferns",
+      "regions_unexplored:cherry_shrub"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "regions_unexplored:bamboo"
     ]
   ],
   "has_precipitation": true,
@@ -99,10 +110,34 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:frog",
-        "maxCount": 5,
-        "minCount": 2,
+        "type": "minecraft:sheep",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 12
+      },
+      {
+        "type": "minecraft:pig",
+        "maxCount": 4,
+        "minCount": 4,
         "weight": 10
+      },
+      {
+        "type": "minecraft:chicken",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
+      },
+      {
+        "type": "minecraft:panda",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 80
       }
     ],
     "misc": [],
@@ -167,5 +202,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.0
+  "temperature": 0.875
 }

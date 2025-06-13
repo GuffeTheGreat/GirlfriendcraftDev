@@ -15,6 +15,10 @@
     "modId": "and_there_was_only_one_bed",
     "version": "1.20.1-1.0"
   },
+  "appleskin-forge-mc1.20.1-2.5.1.jar": {
+    "modId": "appleskin",
+    "version": "2.5.1+mc1.20.1"
+  },
   "architectury-9.2.14-forge.jar": {
     "modId": "architectury",
     "version": "9.2.14"
@@ -47,6 +51,10 @@
     "modId": "bookshelf",
     "version": "20.2.13"
   },
+  "Botania-1.20.1-448-FORGE.jar": {
+    "modId": "botania",
+    "version": "1.20.1-448-FORGE"
+  },
   "caverns_and_chasms-1.20.1-2.0.0.jar": {
     "modId": "caverns_and_chasms",
     "version": "2.0.0"
@@ -71,9 +79,21 @@
     "modId": "crash_assistant",
     "version": "1.9.4"
   },
+  "create-1.20.1-6.0.6.jar": {
+    "modId": "create",
+    "version": "6.0.6"
+  },
+  "createaddition-1.20.1-1.3.1.jar": {
+    "modId": "createaddition",
+    "version": "1.20.1-1.3.1"
+  },
   "cupboard-1.20.1-2.7.jar": {
     "modId": "cupboard",
     "version": "1.20.1-2.7"
+  },
+  "curios-forge-5.14.1+1.20.1.jar": {
+    "modId": "curios",
+    "version": "5.14.1+1.20.1"
   },
   "cyanide-forge-1.20.1-4.1.1.jar": {
     "modId": "cyanide",
@@ -126,6 +146,10 @@
   "ferritecore-6.0.1-forge.jar": {
     "modId": "ferritecore",
     "version": "6.0.1"
+  },
+  "flib-1.20.1-0.0.15.jar": {
+    "modId": "flib",
+    "version": "0.0.15"
   },
   "fullstackwatchdog-1.0.1+1.19.2-forge.jar": {
     "modId": "fullstackwatchdog",
@@ -219,6 +243,10 @@
     "modId": "modernfix",
     "version": "5.23.1+mc1.20.1"
   },
+  "moonlight-1.20-2.14.4-forge.jar": {
+    "modId": "moonlight",
+    "version": "1.20-2.14.4"
+  },
   "MouseTweaks-forge-mc1.20.1-2.25.1.jar": {
     "modId": "mousetweaks",
     "version": "2.25.1"
@@ -230,6 +258,14 @@
   "OpenLoader-Forge-1.20.1-19.0.4.jar": {
     "modId": "openloader",
     "version": "19.0.4"
+  },
+  "Oreganized 1.20.1-4.1.0.jar": {
+    "modId": "oreganized",
+    "version": "4.1.0"
+  },
+  "Patchouli-1.20.1-84.1-FORGE.jar": {
+    "modId": "patchouli",
+    "version": "1.20.1-84.1-FORGE"
   },
   "Placebo-1.20.1-8.6.3.jar": {
     "modId": "placebo",
@@ -267,6 +303,10 @@
     "modId": "rhino",
     "version": "2001.2.3-build.10"
   },
+  "RootsClassic-1.20.1-1.4.2.jar": {
+    "modId": "rootsclassic",
+    "version": "1.4.2"
+  },
   "Searchables-forge-1.20.1-1.0.3.jar": {
     "modId": "searchables",
     "version": "1.0.3"
@@ -290,6 +330,10 @@
   "spark-1.10.53-forge.jar": {
     "modId": "spark",
     "version": "1.10.53"
+  },
+  "spelunkery-1.20.1-0.3.16-forge.jar": {
+    "modId": "spelunkery",
+    "version": "1.20.1-0.3.16"
   },
   "structure_layout_optimizer-forge-1.0.10.jar": {
     "modId": "structure_layout_optimizer",
