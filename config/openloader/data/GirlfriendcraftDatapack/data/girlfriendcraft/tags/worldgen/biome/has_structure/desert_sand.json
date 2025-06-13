@@ -2,7 +2,6 @@
     "values": [
         "minecraft:desert",
         "biomesoplenty:lush_desert",
-        "regions_unexplored:saga",
         "regions_unexplored:saguaro_desert"
     ]
 }

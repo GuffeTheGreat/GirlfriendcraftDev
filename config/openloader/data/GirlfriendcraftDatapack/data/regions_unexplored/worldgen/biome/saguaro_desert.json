@@ -6,11 +6,11 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.7,
+  "downfall": 0.0,
   "effects": {
     "fog_color": 12638463,
-    "foliage_color": -8414642,
-    "grass_color": -6044317,
+    "foliage_color": -6836695,
+    "grass_color": -4212907,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -21,9 +21,9 @@
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.overworld.forest"
+      "sound": "minecraft:music.overworld.desert"
     },
-    "sky_color": 7907327,
+    "sky_color": 7254527,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
@@ -37,12 +37,25 @@
       "minecraft:amethyst_geode"
     ],
     [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower",
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [],
+    [
+      "minecraft:desert_well"
+    ],
     [],
     [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -58,7 +71,10 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma"
+      "minecraft:underwater_magma",
+      "regions_unexplored:disk_sand",
+      "regions_unexplored:disk_clay",
+      "regions_unexplored:disk_gravel"
     ],
     [],
     [
@@ -67,22 +83,23 @@
     ],
     [
       "minecraft:glow_lichen",
-      "regions_unexplored:medium_grass",
+      "minecraft:patch_dead_bush_2",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
+      "minecraft:patch_sugar_cane_desert",
       "minecraft:patch_pumpkin",
-      "regions_unexplored:oak_bush_sparse",
-      "regions_unexplored:daisy",
-      "regions_unexplored:tassel_sparse",
-      "regions_unexplored:grass",
-      "regions_unexplored:flowering_shrub"
+      "atmospheric:patch_arid_sprouts",
+      "biomesoplenty:patch_desert_grass",
+      "regions_unexplored:cactus_dense",
+      "regions_unexplored:saguaro_cactus",
+      "regions_unexplored:barrel_cactus",
+      "regions_unexplored:sandy_grass"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
-  "has_precipitation": true,
+  "has_precipitation": false,
   "spawn_costs": {},
   "spawners": {
     "ambient": [
@@ -100,6 +117,36 @@
         "maxCount": 4,
         "minCount": 4,
         "weight": 12
+      },
+      {
+        "type": "minecraft:pig",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:chicken",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
+      },
+      {
+        "type": "minecraft:horse",
+        "maxCount": 6,
+        "minCount": 2,
+        "weight": 1
+      },
+      {
+        "type": "minecraft:donkey",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 1
       }
     ],
     "misc": [],
@@ -164,5 +211,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.775
+  "temperature": 2.0
 }
