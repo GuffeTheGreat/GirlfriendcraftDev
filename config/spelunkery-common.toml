@@ -1,6 +1,6 @@
 
 [misc]
-	spelunkery_creative_tab = false
+	spelunkery_creative_tab = true
 	#Range: 0 ~ 128
 	diamond_grindstone_deplete_chance = 64
 	#Range: 0 ~ 128
@@ -27,21 +27,21 @@
 	magnetite_range = 64
 
 [nether_portals_and_portal_fluid]
-	flint_and_steel_portal_lighting = true
-	portal_destruction_crying_obsidian = true
+	flint_and_steel_portal_lighting = false
+	portal_destruction_crying_obsidian = false
 	portal_creation_sound = true
 	portal_destruction_sound = true
 	portal_fluid_drinking = true
 	instant_teleportation = true
 	piglins_give_crying_obsidian = true
 	dimensional_tears_from_crying_obsidian = false
-	dimensional_tears_from_respawn_anchor = true
+	dimensional_tears_from_respawn_anchor = false
 	portal_fluid_ocean = true
-	end_ocean_bucketable = false
+	end_ocean_bucketable = true
 
 [slimes]
-	slimes_spawn_in_all_caves = true
-	create_slimes_in_cauldrons = true
+	slimes_spawn_in_all_caves = false
+	create_slimes_in_cauldrons = false
 	slimes_friendly_to_players_with_regeneration = true
 	slimes_always_friendly = false
 	#Range: 1 ~ 2400
@@ -53,7 +53,7 @@
 	slime_growth_max = 5
 
 [worldgen]
-	stone_stripe_features = true
+	stone_stripe_features = false
 	sporophytes_in_lush_caves = true
 	dark_forest_portabellas = true
 

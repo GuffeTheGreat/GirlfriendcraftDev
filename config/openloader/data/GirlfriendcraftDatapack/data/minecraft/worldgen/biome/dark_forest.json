@@ -8,7 +8,7 @@
   },
   "downfall": 0.8,
   "effects": {
-    "fog_color": 12638463,
+    "fog_color": 986895,
     "grass_color_modifier": "dark_forest",
     "mood_sound": {
       "block_search_extent": 8,
@@ -22,7 +22,7 @@
       "replace_current_music": false,
       "sound": "minecraft:music.overworld.forest"
     },
-    "sky_color": 7972607,
+    "sky_color": 986895,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
@@ -85,7 +85,14 @@
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_pumpkin",
+      "biomesoplenty:hanging_cobwebs",
+      "biomesoplenty:corner_cobwebs",
+      "biomesoplenty:webbing",
+      "biomesoplenty:spider_eggs",
+      "biomesoplenty:stringy_cobweb",
+      "regions_unexplored:duckweed",
+      "girlfriendcraft:spider"
     ],
     [
       "minecraft:freeze_top_layer"

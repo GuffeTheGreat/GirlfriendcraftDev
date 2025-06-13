@@ -85,7 +85,8 @@
       "regions_unexplored:mauve_tree_dense",
       "regions_unexplored:meadow_vegetation",
       "regions_unexplored:lupine_vegetation",
-      "regions_unexplored:mauve_shrub"
+      "regions_unexplored:mauve_shrub",
+      "regions_unexplored:flowering_shrub"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -8,6 +8,8 @@
   },
   "downfall": 0.4,
   "effects": {
+    "foliage_color": 13236061,
+    "grass_color": 11131753,
     "fog_color": 12638463,
     "mood_sound": {
       "block_search_extent": 8,
@@ -78,7 +80,9 @@
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_pumpkin",
+      "regions_unexplored:duckweed",
+      "regions_unexplored:daisies"
     ],
     [
       "minecraft:freeze_top_layer"

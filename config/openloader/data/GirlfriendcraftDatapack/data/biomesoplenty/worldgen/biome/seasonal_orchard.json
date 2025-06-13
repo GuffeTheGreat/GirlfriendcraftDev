@@ -81,10 +81,13 @@
       "biomesoplenty:patch_grass_12",
       "autumnity:pumpkin_fields_vegetation",
       "autumnity:flower_pumpkin_fields",
+      "regions_unexplored:daisies",
       "regions_unexplored:maple_shrub",
       "regions_unexplored:orange_maple_shrub",
       "regions_unexplored:red_maple_shrub",
-      "regions_unexplored:maple_shrub_mix"
+      "regions_unexplored:maple_shrub_mix",
+      "regions_unexplored:flowering_shrub"
+      
     ],
     [
       "minecraft:freeze_top_layer"

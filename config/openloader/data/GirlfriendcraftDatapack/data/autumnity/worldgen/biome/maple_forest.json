@@ -9,8 +9,8 @@
   "downfall": 0.8,
   "effects": {
     "fog_color": 12638463,
-    "foliage_color": 10471748,
-    "grass_color": 10139705,
+    "foliage_color": 13236061,
+    "grass_color": 11131753,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -83,6 +83,7 @@
       "autumnity:flower_maple_forest",
       "autumnity:fallen_leaves",
       "autumnity:patch_foul_berry_bush",
+      "regions_unexplored:daisies",
       "regions_unexplored:maple_shrub",
       "regions_unexplored:orange_maple_shrub",
       "regions_unexplored:red_maple_shrub",
