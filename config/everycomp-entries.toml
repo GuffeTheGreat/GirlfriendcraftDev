@@ -79,6 +79,18 @@
 		[types.wood_type.autumnity]
 			maple = true
 
+		[types.wood_type.meadow]
+			pine = true
+
+		[types.wood_type.tconstruct]
+			greenheart = true
+			skyroot = true
+			bloodshroom = true
+			enderbark = true
+
+		[types.wood_type.betterarcheology]
+			rotten = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.biomesoplenty]
@@ -169,6 +181,20 @@
 			yellow_blossom = true
 			red_blossom = true
 
+		[types.leaves_type.meadow]
+			pine = true
+
+		[types.leaves_type.tconstruct]
+			earth_slime = true
+			sky_slime = true
+			ender_slime = true
+
+	[types.cake]
+
+		[types.cake.createaddition]
+			chocolate_cake = true
+			honey_cake = true
+
 #Disables specific entries
 [entries]
 
@@ -191,6 +217,9 @@
 
 		[entries.wood_type.regions_unexplored]
 			branch = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
 
 	[entries.leaves_type]
 

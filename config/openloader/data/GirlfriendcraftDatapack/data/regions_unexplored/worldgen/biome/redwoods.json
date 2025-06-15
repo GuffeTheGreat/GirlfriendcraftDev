@@ -91,7 +91,8 @@
       "regions_unexplored:oak_bush_dense",
       "regions_unexplored:redwoods_vegetation",
       "regions_unexplored:rare_salmonberry_bush",
-      "regions_unexplored:redwood_shrub"
+      "regions_unexplored:redwood_shrub",
+      "girlfriendcraft:redwood_leaf_carpet_dense"
     ],
     [
       "minecraft:freeze_top_layer"

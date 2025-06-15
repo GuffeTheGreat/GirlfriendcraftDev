@@ -74,7 +74,8 @@
     ],
     [
       "minecraft:glow_lichen",
-      "biomesoplenty:wasteland_grass_1"
+      "biomesoplenty:wasteland_grass_1",
+      "regions_unexplored:dead_bog_tree_rare"
     ],
     [
       "minecraft:freeze_top_layer"

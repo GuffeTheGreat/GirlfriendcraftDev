@@ -82,6 +82,8 @@
     ],
     [
       "minecraft:glow_lichen",
+      "minecraft:patch_grass_badlands",
+      "minecraft:patch_dead_bush_badlands",
       "regions_unexplored:oak_tree_shrub_on_stone",
       "regions_unexplored:stone_bud_sparse"
     ],

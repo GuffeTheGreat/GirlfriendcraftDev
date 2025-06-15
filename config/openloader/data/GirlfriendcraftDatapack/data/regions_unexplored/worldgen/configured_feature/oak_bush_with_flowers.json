@@ -30,7 +30,7 @@
         },
         {
           "data": {
-            "Name": "regions_unexplored:flowering_leaves",
+            "Name": "biomesoplenty:flowering_oak_leaves",
             "Properties": {
               "distance": "7",
               "persistent": "false",

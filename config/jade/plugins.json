@@ -67,6 +67,9 @@
   "jadeaddons.lootr": {
     "info": true
   },
+  "supplementaries": {
+    "hat_stand": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -74,5 +77,8 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "balm": {
+    "jade": true
   }
 }

@@ -21,19 +21,12 @@
   },
   "features": [
     [],
+    [],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
-    ],
-    [
-      "minecraft:amethyst_geode",
       "minecraft:forest_rock",
       "atmospheric:ocean_floor_raiser"
     ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    [],
     [],
     [],
     [
