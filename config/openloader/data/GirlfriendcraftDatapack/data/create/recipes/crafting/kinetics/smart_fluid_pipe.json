@@ -2,20 +2,23 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "p": {
+    "I": {
       "tag": "forge:plates/electrum"
     },
-    "s": {
-      "item": "minecraft:string"
+    "P": {
+      "item": "create:electron_tube"
+    },
+    "S": {
+      "item": "create:fluid_pipe"
     }
   },
   "pattern": [
-    "psp",
-    "psp"
+    "I",
+    "S",
+    "P"
   ],
   "result": {
-    "count": 3,
-    "item": "createdeco:brass_mesh_fence"
+    "item": "create:smart_fluid_pipe"
   },
   "show_notification": true
 }

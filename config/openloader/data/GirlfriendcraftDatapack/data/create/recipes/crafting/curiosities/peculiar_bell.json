@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "tag": "forge:storage_blocks/electrum"
+    },
+    "P": {
+      "tag": "forge:plates/electrum"
+    }
+  },
+  "pattern": [
+    "I",
+    "P"
+  ],
+  "result": {
+    "item": "create:peculiar_bell"
+  },
+  "show_notification": true
+}

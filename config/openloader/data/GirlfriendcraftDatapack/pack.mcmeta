@@ -56,6 +56,10 @@
       {
         "namespace": "spelunkery",
         "path": "filling"
+      },
+      {
+        "namespace": "createaddition",
+        "path": "recipes/compat"
       }
   ]
 }

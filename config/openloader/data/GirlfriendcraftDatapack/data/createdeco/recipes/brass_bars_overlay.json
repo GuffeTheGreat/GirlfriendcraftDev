@@ -2,20 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "p": {
+    "m": {
       "tag": "forge:plates/electrum"
-    },
-    "s": {
-      "item": "minecraft:string"
     }
   },
   "pattern": [
-    "psp",
-    "psp"
+    "mmm",
+    "mmm"
   ],
   "result": {
     "count": 3,
-    "item": "createdeco:brass_mesh_fence"
+    "item": "createdeco:brass_bars_overlay"
   },
   "show_notification": true
 }

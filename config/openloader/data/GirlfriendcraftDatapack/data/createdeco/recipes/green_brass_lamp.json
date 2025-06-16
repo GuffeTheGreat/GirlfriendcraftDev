@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "m": {
+      "tag": "forge:plates/electrum"
+    },
+    "b": {
+      "item": "caverns_and_chasms:cupric_torch"
+    },
+    "y": {
+      "tag": "forge:nuggets/electrum"
+    }
+  },
+  "pattern": [
+    "y",
+    "b",
+    "m"
+  ],
+  "result": {
+    "count": 2,
+    "item": "createdeco:green_brass_lamp"
+  },
+  "show_notification": true
+}
