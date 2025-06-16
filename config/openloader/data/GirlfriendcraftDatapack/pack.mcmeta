@@ -12,7 +12,51 @@
     {
       "namespace": "autumnity",
       "path": "blueprint/modded_biome_slices"
-    }
+    },
+    {
+        "namespace": "spelunkery",
+        "path": "recipes/sandpaper_polishing"
+      },
+      {
+        "namespace": "create",
+        "path": "recipes/sandpaper_polishing"
+      },
+      {
+        "namespace": "oreganized",
+        "path": "recipes/create"
+      },
+      {
+        "namespace": "create",
+        "path": "cutting/runtime_generated/compat"
+      },
+      {
+        "namespace": "supplementaries",
+        "path": "stonecutting"
+      },
+      {
+        "namespace": "quark",
+        "path": "building/stonecutting"
+      },
+      {
+        "namespace": "quark",
+        "path": "building/crafting/stairs"
+      },
+      {
+        "namespace": "quark",
+        "path": "world/crafting/stairs"
+      },
+      {
+        "namespace": "oreganized",
+        "path": "recipes/stonecutting"
+      },
+      {
+        "namespace": "spelunkery",
+        "path": "mixing"
+      },
+      {
+        "namespace": "spelunkery",
+        "path": "filling"
+      }
   ]
 }
 }

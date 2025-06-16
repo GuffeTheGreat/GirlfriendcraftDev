@@ -91,7 +91,8 @@
       "regions_unexplored:large_pointed_redstone",
       "regions_unexplored:pointed_redstone_cluster",
       "regions_unexplored:redstone_bud",
-      "regions_unexplored:redstone_bulb"
+      "regions_unexplored:redstone_bulb",
+      "girlfriendcraft:shimmering_mushrooms"
     ],
     [
       "minecraft:freeze_top_layer"

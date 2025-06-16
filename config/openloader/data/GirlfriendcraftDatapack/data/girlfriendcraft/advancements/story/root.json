@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "0": {
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/stone.png",
+    "description": {
+      "color": "#55FF55",
+      "text": "Welcome to Girlfriendcraft! Hope you enjoy time here! This is the Tab for Main Progression, but as you play other tabs filled with Goals and Tips will Unlock!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "show_toast": false,
+    "title": {
+      "color": "#FFFFFF",
+      "text": "Girlfriendcraft"
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

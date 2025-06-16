@@ -8,6 +8,41 @@ ClientEvents.lang('en_us', event => {
       { id: 'regions_unexplored:ashen_grass', name: 'Pale Grass' },
       { id: 'regions_unexplored:ashen_shrub', name: 'Pale Shrub' },
 
+      // Sturdy Stone
+      { id: 'create:andesite_alloy_block', name: 'Sturdy Stone Alloy Block' },
+      { id: 'createdeco:andesite_sheet_metal', name: 'Sturdy Stone Alloy Sheet' },
+      { id: 'createdeco:andesite_door', name: 'Sturdy Stone Door' },
+      { id: 'createdeco:locked_andesite_door', name: 'Locked Sturdy Stone Door' },
+      { id: 'createdeco:andesite_trapdoor', name: 'Sturdy Stone Trapdoor' },
+      { id: 'createdeco:andesite_catwalk_stairs', name: 'Sturdy Stone Catwalk Stairs' },
+      { id: 'create:andesite_casing', name: 'Sturdy Stone Casing' },
+      { id: 'create:andesite_funnel', name: 'Sturdy Stone Funnel' },
+      { id: 'create:andesite_tunnel', name: 'Sturdy Stone Tunnel' },
+      { id: 'create:andesite_table_cloth', name: 'Sturdy Stone Table Cloth' },
+      { id: 'create:andesite_ladder', name: 'Sturdy Stone Ladder' },
+      { id: 'create:andesite_bars', name: 'Sturdy Stone Bars' },
+      { id: 'create:andesite_alloy', name: 'Sturdy Stone Alloy' },
+      { id: 'create:andesite_scaffolding', name: 'Sturdy Stone Scaffolding' },
+      { id: 'create:andesite_door', name: 'Sturdy Stone Door' },
+      { id: 'createdeco:andesite_bars', name: 'Sturdy Stone Bars' },
+      { id: 'createdeco:andesite_bars_overlay', name: 'Sturdy Stone Bars Overlay' },
+      { id: 'createdeco:andesite_catwalk', name: 'Sturdy Stone Catwalk' },
+      { id: 'createdeco:andesite_mesh_fence', name: 'Sturdy Stone Mesh Fence' },
+      { id: 'createdeco:andesite_window_pane', name: 'Sturdy Stone Window Pane' },
+      { id: 'createdeco:andesite_window', name: 'Sturdy Stone Window' },
+      { id: 'createdeco:andesite_sheet', name: 'Sturdy Stone Alloy Sheet' },
+      { id: 'createdeco:andesite_support', name: 'Sturdy Stone Support' },
+      { id: 'createdeco:andesite_hull', name: 'Sturdy Stone Hull' },
+      { id: 'createdeco:andesite_facade', name: 'Sturdy Stone Facade' },
+      { id: 'createdeco:andesite_catwalk_railing', name: 'Sturdy Stone Catwalk Railing' },
+      { id: 'createdeco:andesite_support_wedge', name: 'Sturdy Stone Wedge' },
+      { id: 'createdeco:red_andesite_lamp', name: 'Red Sturdy Stone Lamp' },
+      { id: 'createdeco:yellow_andesite_lamp', name: 'Yellow Sturdy Stone Lamp' },
+      { id: 'createdeco:blue_andesite_lamp', name: 'Blue Sturdy Stone Lamp' },
+      { id: 'createdeco:green_andesite_lamp', name: 'Green Sturdy Stone Lamp' },
+
+  
+
       /*
       // Stonectuter
       { id: 'minecraft:stonecutter', name: 'Blockcutter' },

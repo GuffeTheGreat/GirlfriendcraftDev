@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "minecraft:nether_star"
+    },
+    "P": {
+      "tag": "forge:nuggets/electrum"
+    },
+    "S": {
+      "item": "minecraft:obsidian"
+    },
+    "G": {
+      "item": "botania:elf_glass"
+    }
+  },
+  "pattern": [
+    "P   P",
+    " GGG ",
+    " GAG ",
+    " SSS ",
+    "P   P"
+  ],
+  "result": {
+    "count": 1,
+    "item": "minecraft:beacon"
+  }
+}

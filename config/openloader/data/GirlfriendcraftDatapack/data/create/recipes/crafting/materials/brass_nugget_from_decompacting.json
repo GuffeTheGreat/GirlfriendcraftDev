@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:no_op",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/brass"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "create:brass_nugget"
+  }
+}

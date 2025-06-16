@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "m": {
+      "tag": "forge:ingots/electrum"
+    }
+  },
+  "pattern": [
+    " m ",
+    "m m",
+    " m "
+  ],
+  "result": {
+    "count": 3,
+    "item": "createdeco:brass_support"
+  },
+  "show_notification": true
+}

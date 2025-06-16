@@ -1,0 +1,39 @@
+{
+  "parent": "girlfriendcraft:story/crafting_table",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crafting_table"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#55FF55",
+      "text": "In this world, Mobs for the most part only Spawn in Caves. So unless a Cave Biome has extended up through the Surface, walking around at Night is Perfectly Safe. Phantoms also dont spawn"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:red_bed"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Not as needed as usual"
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

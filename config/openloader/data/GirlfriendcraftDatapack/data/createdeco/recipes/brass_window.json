@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "m": {
+      "tag": "forge:ingots/electrum"
+    },
+    "g": {
+      "tag": "forge:glass"
+    }
+  },
+  "pattern": [
+    " m ",
+    "mgm"
+  ],
+  "result": {
+    "count": 2,
+    "item": "createdeco:brass_window"
+  },
+  "show_notification": true
+}

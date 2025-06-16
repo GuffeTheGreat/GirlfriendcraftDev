@@ -1,0 +1,39 @@
+{
+  "parent": "girlfriendcraft:story/crafting_table",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:cutting_board"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#55FF55",
+      "text": "The Cutting from The Farmers Delight Mod, is very useful. Especially early game allowing you to get 6 planks from a single log"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "farmersdelight:cutting_board"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Chop Chop Chop!"
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

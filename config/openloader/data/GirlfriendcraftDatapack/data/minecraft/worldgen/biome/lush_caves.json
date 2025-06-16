@@ -84,7 +84,8 @@
       "minecraft:lush_caves_vegetation",
       "minecraft:rooted_azalea_tree",
       "minecraft:spore_blossom",
-      "minecraft:classic_vines_cave_feature"
+      "minecraft:classic_vines_cave_feature",
+      "girlfriendcraft:shimmering_mushrooms"
     ],
     [
       "minecraft:freeze_top_layer"

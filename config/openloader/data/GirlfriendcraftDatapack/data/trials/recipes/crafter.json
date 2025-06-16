@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "create:iron_sheet"
+    },
+    "Z": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "item": "tconstruct:crafting_station"
+    },
+    "V": {
+      "item": "spelunkery:cinnabar"
+    },
+    "Y": {
+      "item": "minecraft:dispenser"
+    }
+  },
+  "pattern": [
+    "XZX",
+    "XCX",
+    "VYV"
+  ],
+  "result": {
+    "item": "trials:crafter"
+  },
+  "show_notification": true
+}

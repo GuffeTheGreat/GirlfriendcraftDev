@@ -1,0 +1,10 @@
+{
+	"type":"minecraft:no_op",
+	"input": {
+      	"tag": "forge:ingots/brass"
+	},
+	"result": {
+		"item": "createaddition:brass_rod",
+		"count": 2
+	}
+}

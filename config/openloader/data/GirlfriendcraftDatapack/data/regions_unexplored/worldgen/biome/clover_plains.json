@@ -76,7 +76,9 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "regions_unexplored:lupine_vegetation",
+      "biomesoplenty:flower_clover_patch",
+      "biomesoplenty:patch_clover_extra",
+      "biomesoplenty:huge_clover",
       "regions_unexplored:clover",
       "regions_unexplored:grass"
     ],

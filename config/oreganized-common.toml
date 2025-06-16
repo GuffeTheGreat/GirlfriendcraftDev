@@ -13,5 +13,5 @@
 	#Range: 0 ~ 2000
 	moltenLeadDelay = 200
 	#Can lead blocks be placed into a cauldron to melt?
-	cauldronLeadMelting = true
+	cauldronLeadMelting = false
 

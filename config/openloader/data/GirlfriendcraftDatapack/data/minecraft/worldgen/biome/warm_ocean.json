@@ -22,7 +22,9 @@
   "features": [
     [],
     [],
-    [],
+    [
+      "regions_unexplored:hyacinth_rocks"
+    ],
     [],
     [],
     [],
