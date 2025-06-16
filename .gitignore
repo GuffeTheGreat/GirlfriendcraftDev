@@ -4,6 +4,7 @@
 /resourcepacks
 /local
 /logs
+config/blockswap
 usernamecache.json
 usercache.json
 rhino.local.properties
