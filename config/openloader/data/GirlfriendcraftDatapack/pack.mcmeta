@@ -58,8 +58,36 @@
         "path": "filling"
       },
       {
+        "namespace": "spelunkery",
+        "path": "crushing"
+      },
+      {
+        "namespace": "spelunkery",
+        "path": "zinc"
+      },
+      {
         "namespace": "createaddition",
         "path": "recipes/compat"
+      },
+      {
+        "namespace": "tconstruct",
+        "path": "smeltery/melting/metal/nickel"
+      },
+      {
+        "namespace": "tconstruct",
+        "path": "smeltery/melting/metal/tin"
+      },
+      {
+        "namespace": "tconstruct",
+        "path": "smeltery/melting/metal/tungsten"
+      },
+      {
+        "namespace": "tconstruct",
+        "path": "smeltery/melting/metal/uranium"
+      },
+      {
+        "namespace": "tconstruct",
+        "path": "smeltery/melting/metal/zinc"
       }
   ]
 }

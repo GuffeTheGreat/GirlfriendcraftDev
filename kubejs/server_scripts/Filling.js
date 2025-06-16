@@ -15,8 +15,8 @@ ServerEvents.recipes(event => {
     input: "oreganized:glance",
     output: "oreganized:spotted_glance"
   },
-  { // Blaze Cake --- Maybe Move to Cooking Pot?
-    fluid: { fluid: "tconstruct:ichor", amount: 150 },
+  { // Blaze Cake
+    fluid: { fluid: "tconstruct:ichor", amount: 200 },
     input: "create:blaze_cake_base",
     output: "create:blaze_cake"
   },

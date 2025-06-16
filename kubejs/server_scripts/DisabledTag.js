@@ -6,11 +6,27 @@ ServerEvents.tags('item', event => {
   const removeTags = [
     
 
+    // Zinc
+      'create:zinc_ingot', 
+      'create:zinc_nugget', 
+      'create:zinc_block', 
+      'createaddition:zinc_sheet', 
+      'spelunkery:raw_zinc_nugget', 
+      'create:crushed_raw_zinc', 
+      'create:raw_zinc',
+      'create:raw_zinc_block', 
+      'create:zinc_ore', 
+      'create:deepslate_zinc_ore', 
+      'spelunkery:andesite_zinc_ore', 
+      'spelunkery:diorite_zinc_ore', 
+      'spelunkery:granite_zinc_ore',
+
     //Brass
     'create:brass_ingot',
     'create:brass_nugget',
     'create:brass_sheet',
     'create:brass_block',
+    'createaddition:brass_rod',
 
     /*
     // Stone Tools
