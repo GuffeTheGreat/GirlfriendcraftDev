@@ -10,27 +10,11 @@
         }
       ],
       "recipe": {
-        "type": "minecraft:crafting_shapeless",
-        "category": "misc",
-        "ingredients": [
-          {
-            "item": "create:large_cogwheel"
-          },
-          {
-            "item": "create:large_cogwheel"
-          },
-          {
-            "item": "create:large_cogwheel"
-          },
-          {
-            "item": "create:large_cogwheel"
-          },
-          {
-            "item": "copycats:copycat_block"
-          }
-        ],
-        "result": {
-          "count": 4,
+        "type": "minecraft:stonecutting",
+        "count": 2,
+        "ingredient": {
+          "tag": "forge:ingots/iron"
+        },
         "result": "copycats:copycat_heavy_weighted_pressure_plate"
       }
     }
