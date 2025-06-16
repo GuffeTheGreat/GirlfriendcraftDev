@@ -1,0 +1,12 @@
+{
+  "breed": "earthslime",
+  "name": "slime.splendid_slimes.slimy",
+  "color": "#ff7d9d",
+  "particle": { "item": "minecraft:lime_concrete" },
+  "hat_y_offset": -0.55,
+  "diet": "diet.splendid_slimes.slimy",
+  "foods": [{ "tag": "#forge:mushrooms" }],
+  "favorite_food": {
+    "item": "spelunkery:portabella"
+  }
+}

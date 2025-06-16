@@ -51,6 +51,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "splendid_slimes": {
+    "splendid_slime": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },

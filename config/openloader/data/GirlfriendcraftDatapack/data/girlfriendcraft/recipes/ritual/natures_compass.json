@@ -1,0 +1,28 @@
+{
+  "type": "rootsclassic:ritual",
+  "effect": "rootsclassic:crafting",
+  "level": 0,
+  "color": "#92d62b",
+  "ingredients": [
+    {
+      "item": "spelunkery:magnetic_compass"
+    },
+    {
+      "item": "rootsclassic:verdant_sprig"
+    },
+    {
+      "tag": "minecraft:saplings"
+    }
+  ],
+  "incenses": [
+    {
+      "item": "farmersdelight:tree_bark"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "result": {
+    "item": "naturescompass:naturescompass"
+  }
+}

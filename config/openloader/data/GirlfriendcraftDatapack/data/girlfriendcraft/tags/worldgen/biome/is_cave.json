@@ -1,0 +1,19 @@
+{
+  "values": [
+    "minecraft:lush_caves",
+    "minecraft:dripstone_caves",
+    "biomesoplenty:spider_nest",
+    "biomesoplenty:glowing_grotto",
+    "quark:glimmering_weald",
+    "yungscavebiomes:lost_caves",
+    "yungscavebiomes:frosted_caves",
+    "galosphere:crystal_canyons",
+    "galosphere:pink_salt_caves",
+    "galosphere:lichen_caves",
+    "regions_unexplored:scorching_caves",
+    "regions_unexplored:prismachasm",
+    "regions_unexplored:ancient_delta",
+    "regions_unexplored:bioshroom_caves",
+    "regions_unexplored:redstone_caves"
+  ]
+}

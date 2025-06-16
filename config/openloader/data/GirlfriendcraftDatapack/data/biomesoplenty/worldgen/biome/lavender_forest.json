@@ -82,11 +82,14 @@
       "biomesoplenty:patch_grass_24",
       "biomesoplenty:flower_lavender_forest",
       "biomesoplenty:trees_lavender_forest",
+      "regions_unexplored:duckweed",
       "regions_unexplored:mauve_tree_dense",
       "regions_unexplored:meadow_vegetation",
       "regions_unexplored:lupine_vegetation",
       "regions_unexplored:mauve_shrub",
-      "regions_unexplored:flowering_shrub"
+      "regions_unexplored:flowering_shrub",
+      "girlfriendcraft:jacaranda_leaf_carpet_dense",
+      "girlfriendcraft:mauve_leaf_carpet_sparse"
     ],
     [
       "minecraft:freeze_top_layer"

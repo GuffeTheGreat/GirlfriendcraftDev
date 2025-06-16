@@ -90,7 +90,9 @@
       "regions_unexplored:oak_bush_with_flowers_dense",
       "regions_unexplored:hibiscus",
       "regions_unexplored:elephant_ear_dense",
-      "regions_unexplored:moss_patch_with_water"
+      "regions_unexplored:moss_patch_with_water",
+      "girlfriendcraft:rosewood_leaf_carpet_dense",
+      "girlfriendcraft:kapok_leaf_carpet_sparse"
     ],
     [
       "minecraft:freeze_top_layer"
