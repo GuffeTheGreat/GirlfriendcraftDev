@@ -199,6 +199,10 @@
     "modId": "highlighter",
     "version": "1.1.9"
   },
+  "hybrid-beta-v1.0.4.jar": {
+    "modId": "mr_hybrid_beta",
+    "version": "1-v1.0.4"
+  },
   "Iceberg-1.20.1-forge-1.1.25.jar": {
     "modId": "iceberg",
     "version": "1.1.25"

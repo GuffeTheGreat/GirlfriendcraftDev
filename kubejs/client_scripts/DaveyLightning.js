@@ -14,6 +14,7 @@ const biomeMap = {
     crystal_canyons: [0.07, "gay"],
     frosted_caves: [0.06, $Vec3(0.3, 0.3, 0.4)],
     lichen_caves: [0.05, $Vec3(0.3, 0.4, 0.3)],
+    glowing_grotto: [0.05, $Vec3(0.3, 0.3, 0.4)],
     lost_caves: [0.06, $Vec3(0.4, 0.3, 0.3)],
     dripstone_caves: [0.04, $Vec3(0.4, 0.4, 0.4)],
     spider_nest: [0.04, $Vec3(0.4, 0.4, 0.4)],
