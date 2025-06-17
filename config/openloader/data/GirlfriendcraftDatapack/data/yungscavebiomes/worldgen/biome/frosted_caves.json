@@ -91,7 +91,8 @@
     [
       "minecraft:freeze_top_layer",
       "yungscavebiomes:frosted_caves/ice_sheet_replace",
-      "yungscavebiomes:frosted_caves/ice_sheet_replace_2"
+      "yungscavebiomes:frosted_caves/ice_sheet_replace_2",
+      "regions_unexplored:icicle_up"
     ]
   ],
   "spawners": {

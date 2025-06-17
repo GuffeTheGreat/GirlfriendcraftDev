@@ -10,12 +10,29 @@
         }
       ],
       "recipe": {
-        "type": "minecraft:stonecutting",
-        "count": 4,
-        "ingredient": {
-          "tag": "forge:ingots/iron"
-        },
-        "result": "copycats:copycat_shaft"
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "create:shaft"
+          },
+          {
+            "item": "create:shaft"
+          },
+          {
+            "item": "create:shaft"
+          },
+          {
+            "item": "create:shaft"
+          },
+          {
+            "item": "copycats:copycat_block"
+          }
+        ],
+        "result": {
+          "count": 4,
+          "item": "copycats:copycat_shaft"
+        }
       }
     }
   ]

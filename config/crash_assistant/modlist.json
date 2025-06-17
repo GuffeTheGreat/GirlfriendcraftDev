@@ -207,9 +207,9 @@
     "modId": "galosphere",
     "version": "1.20.1-1.4.1"
   },
-  "geckolib-forge-1.20.1-4.7.1.3.jar": {
+  "geckolib-forge-1.20.1-4.7.2.jar": {
     "modId": "geckolib",
-    "version": "4.7.1.3"
+    "version": "4.7.2"
   },
   "GlitchCore-forge-1.20.1-0.0.1.1.jar": {
     "modId": "glitchcore",
@@ -451,6 +451,10 @@
   "toofast-1.20-0.4.3.5.jar": {
     "modId": "toofast",
     "version": "0.4.3.5"
+  },
+  "TreeChop-1.20.1-forge-0.19.0-fixed.jar": {
+    "modId": "treechop",
+    "version": "0.19.0"
   },
   "Trials-2.3.3.jar": {
     "modId": "trials",
