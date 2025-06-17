@@ -91,6 +91,35 @@
 		[types.wood_type.betterarcheology]
 			rotten = true
 
+		[types.wood_type.ecologics]
+			flowering_azalea = true
+			azalea = true
+			coconut = true
+			walnut = true
+
+		[types.wood_type.bloomingnature]
+			larch = true
+			baobab = true
+			swamp_oak = true
+			aspen = true
+			fan_palm = true
+			fir = true
+			swamp_cypress = true
+			ebony = true
+			chestnut = true
+
+		[types.wood_type.beachparty]
+			palm = true
+
+		[types.wood_type.biomemakeover]
+			blighted_balsa = true
+			willow = true
+			swamp_cypress = true
+			ancient_oak = true
+
+		[types.wood_type.snifferplus]
+			stone_pine = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.biomesoplenty]
@@ -189,6 +218,34 @@
 			sky_slime = true
 			ender_slime = true
 
+		[types.leaves_type.ecologics]
+			coconut = true
+			walnut = true
+
+		[types.leaves_type.bloomingnature]
+			larch = true
+			baobab = true
+			orange = true
+			swamp_oak = true
+			aspen = true
+			fan_palm = true
+			fir = true
+			swamp_cypress = true
+			ebony = true
+			chestnut = true
+
+		[types.leaves_type.beachparty]
+			palm = true
+
+		[types.leaves_type.biomemakeover]
+			blighted_balsa = true
+			willow = true
+			swamp_cypress = true
+			ancient_oak = true
+
+		[types.leaves_type.snifferplus]
+			stone_pine = true
+
 	[types.cake]
 
 		[types.cake.createaddition]
@@ -229,6 +286,13 @@
 			shutter = true
 			bench = true
 			chair = true
+
+		[entries.wood_type.hearth_and_home]
+			lattice = true
+			parquet = true
+			vertical_trim = true
+			trim = true
+			sanded_wood = true
 
 	[entries.leaves_type]
 
