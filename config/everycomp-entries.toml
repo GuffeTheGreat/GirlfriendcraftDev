@@ -44,7 +44,7 @@
 			redwood = true
 			mahogany = true
 			jacaranda = true
-			palm = true
+			palm = false
 			willow = true
 			dead = true
 			magic = true
@@ -68,7 +68,7 @@
 			magnolia = true
 			maple = true
 			mauve = true
-			palm = true
+			palm = false
 			pine = true
 			pink_bioshroom = true
 			redwood = true
@@ -80,7 +80,7 @@
 			maple = true
 
 		[types.wood_type.meadow]
-			pine = true
+			pine = false
 
 		[types.wood_type.tconstruct]
 			greenheart = true
@@ -90,23 +90,6 @@
 
 		[types.wood_type.betterarcheology]
 			rotten = true
-
-		[types.wood_type.ecologics]
-			flowering_azalea = true
-			azalea = true
-			coconut = true
-			walnut = true
-
-		[types.wood_type.bloomingnature]
-			larch = true
-			baobab = true
-			swamp_oak = true
-			aspen = true
-			fan_palm = true
-			fir = true
-			swamp_cypress = true
-			ebony = true
-			chestnut = true
 
 		[types.wood_type.beachparty]
 			palm = true
@@ -134,7 +117,7 @@
 			redwood = true
 			mahogany = true
 			jacaranda = true
-			palm = true
+			palm = false
 			willow = true
 			dead = true
 			magic = true
@@ -159,7 +142,7 @@
 			maple = true
 			mauve = true
 			orange_maple = true
-			palm = true
+			palm = false
 			pine = true
 			blue_magnolia = true
 			pink_magnolia = true
@@ -211,28 +194,12 @@
 			red_blossom = true
 
 		[types.leaves_type.meadow]
-			pine = true
+			pine = false
 
 		[types.leaves_type.tconstruct]
 			earth_slime = true
 			sky_slime = true
 			ender_slime = true
-
-		[types.leaves_type.ecologics]
-			coconut = true
-			walnut = true
-
-		[types.leaves_type.bloomingnature]
-			larch = true
-			baobab = true
-			orange = true
-			swamp_oak = true
-			aspen = true
-			fan_palm = true
-			fir = true
-			swamp_cypress = true
-			ebony = true
-			chestnut = true
 
 		[types.leaves_type.beachparty]
 			palm = true
@@ -251,6 +218,77 @@
 		[types.cake.createaddition]
 			chocolate_cake = true
 			honey_cake = true
+
+	[types.stone_type]
+
+		[types.stone_type.galosphere]
+			pink_salt = true
+			rose_pink_salt = true
+			pastel_pink_salt = true
+
+		[types.stone_type.atmospheric]
+			dolerite = true
+			ivory_travertine = true
+			peach_travertine = true
+			persimmon_travertine = true
+			saffron_travertine = true
+
+		[types.stone_type.caverns_and_chasms]
+			sugilite = true
+
+		[types.stone_type.create]
+			limestone = true
+			asurine = true
+			crimsite = true
+			ochrum = true
+			veridium = true
+			scoria = true
+			scorchia = true
+
+		[types.stone_type.alexscaves]
+			galena = true
+			radrock = true
+			abyssmarine = true
+			guanostone = true
+			limestone = true
+
+		[types.stone_type.quark]
+			soul_sandstone = true
+			limestone = true
+			jasper = true
+			shale = true
+			myalite = true
+			permafrost = true
+
+		[types.stone_type.regions_unexplored]
+			argillite = true
+			chalk = true
+
+		[types.stone_type.biomesoplenty]
+			black_sandstone = true
+			orange_sandstone = true
+			white_sandstone = true
+			brimstone = true
+
+		[types.stone_type.spelunkery]
+			nephrite = true
+
+		[types.stone_type.botania]
+			livingrock = true
+			shimmerrock = true
+
+		[types.stone_type.meadow]
+			limestone = true
+
+		[types.stone_type.biomemakeover]
+			mesmerite = true
+
+		[types.stone_type.upgrade_aquatic]
+			coralstone = true
+
+		[types.stone_type.tconstruct]
+			seared_stone = true
+			scorched_stone = true
 
 #Disables specific entries
 [entries]
@@ -302,4 +340,43 @@
 		[entries.leaves_type.quark]
 			hedge = true
 			leaf_carpet = true
+
+	[entries.stone_type]
+
+		[entries.stone_type.create]
+			small_brick_wall = true
+			cut_wall = true
+			small_bricks = true
+			cut_brick_slab = true
+			polished_cut_slab = true
+			small_brick_stairs = true
+			cut_bricks = true
+			cut = true
+			polished_cut = true
+			small_brick_slab = true
+			layered = true
+			polished_cut_stairs = true
+			cut_brick_wall = true
+			pillar = true
+			cut_stairs = true
+			cut_brick_stairs = true
+			polished_cut_wall = true
+			cut_slab = true
+
+		[entries.stone_type.quark]
+			polished_vertical_slab = true
+			pillar = true
+			vertical_slab = true
+
+	[entries.mud_type]
+
+		[entries.mud_type.quark]
+			carved_bricks = true
+			pillar = true
+			brick_lattice = true
+
+		[entries.mud_type.betterarcheology]
+			cracked_brick_stairs = true
+			cracked_bricks = true
+			cracked_brick_slab = true
 

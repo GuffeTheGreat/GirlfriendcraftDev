@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#V#",
+    "VDV",
+    "#V#"
+  ],
+  "key": {
+    "#": {
+      "item": "beachparty:palm_planks"
+    },
+    "V": {
+      "item": "beachparty:palm_slab"
+    },
+    "D": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "result": {
+    "item": "beachparty:palm_cabinet"
+  }
+}

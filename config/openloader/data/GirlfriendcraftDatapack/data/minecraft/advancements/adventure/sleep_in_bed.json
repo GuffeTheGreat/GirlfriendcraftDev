@@ -1,17 +1,9 @@
 {
   "parent": "girlfriendcraft:story/crafting_table",
   "criteria": {
-    "0": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:crafting_table"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+    "slept_in_bed": {
+      "conditions": {},
+      "trigger": "minecraft:slept_in_bed"
     }
   },
   "display": {
@@ -30,10 +22,10 @@
       "text": "Not as needed as usual"
     }
   },
-  "rewards": {},
   "requirements": [
     [
-      "0"
+      "slept_in_bed"
     ]
-  ]
+  ],
+  "sends_telemetry_event": true
 }

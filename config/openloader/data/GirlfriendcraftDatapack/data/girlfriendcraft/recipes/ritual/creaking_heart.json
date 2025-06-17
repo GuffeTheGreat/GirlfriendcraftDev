@@ -1,0 +1,34 @@
+{
+  "type": "rootsclassic:ritual",
+  "effect": "rootsclassic:crafting",
+  "level": 0,
+  "color": "#92d62b",
+  "ingredients": [
+    {
+      "item": "vanillabackport:pale_oak_log"
+    },
+    {
+      "item": "vanillabackport:resin_block"
+    },
+    {
+      "item": "vanillabackport:pale_oak_log"
+    }
+  ],
+  "incenses": [
+    {
+      "item": "vanillabackport:resin_clump"
+    },
+    {
+      "item": "vanillabackport:resin_clump"
+    },
+    {
+      "item": "vanillabackport:resin_clump"
+    },
+    {
+      "item": "vanillabackport:resin_clump"
+    }
+  ],
+  "result": {
+    "item": "vanillabackport:creaking_heart"
+  }
+}

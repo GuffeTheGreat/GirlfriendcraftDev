@@ -9,6 +9,30 @@ ServerEvents.tags('item', event => {
         'regions_unexplored:magnolia_wood', 
         'regions_unexplored:stripped_magnolia_wood', 
         'everycomp:q/regions_unexplored/hollow_magnolia_log'],
+
+        'minecraft:palm_blocks': [
+        'beachparty:palm_floorboard'],
+
+        'minecraft:pine_blocks': [
+        'meadow:pine_barn_door',
+        'meadow:pine_barn_trapdoor',
+        'meadow:chair',
+        'meadow:table',
+        'meadow:bench',
+        'meadow:pine_railing',
+        'meadow:shutter_block'
+      ],
+
+      'minecraft:unstripped_pine_logs': [
+        'meadow:pine_beam'
+      ],
+
+      'minecraft:stone_blocks': [
+        'minecraft:stone_pressure_plate', 
+        'minecraft:stone_button'
+      ],
+
+      
       /*
       'girlfriendcraft:resin_blocks': [
         'vanillabackport:resin_bricks',

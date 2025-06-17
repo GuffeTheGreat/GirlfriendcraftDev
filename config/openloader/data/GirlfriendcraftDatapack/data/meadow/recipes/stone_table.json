@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "B B"
+  ],
+  "key": {
+    "S": {
+      "item": "quark:limestone_slab"
+    },
+    "B": {
+      "item": "quark:polished_limestone"
+    }
+  },
+  "result": {
+    "item": "meadow:stone_table"
+  }
+}

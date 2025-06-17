@@ -1,0 +1,56 @@
+[
+  {
+    "mob": "minecraft:zombie",
+    "biome": "minecraft:lush_caves",
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:spider",
+    "biome": "minecraft:dark_forest",
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:skeleton",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:enderman",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:creeper",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:spider",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:drowned",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:husk",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:witch",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:stray",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:magma_cube",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:slime",
+    "result": "deny"
+  }
+]

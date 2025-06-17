@@ -1,0 +1,41 @@
+Detected that Windows has terminated one or more processes within the last minute leading up to the moment of the current Minecraft JVM instance termination,
+so with a very high probability that one of these processes is the Minecraft JVM itself.
+Command used to identify terminated processes:
+ 
+$ErrorActionPreference = 'Continue'; 
+Get-WinEvent -FilterHashtable @{ 
+  LogName='Application'; 
+  Level=2; 
+  StartTime=(Get-Date).AddSeconds(-15) 
+} *>&1 | Format-Table -Wrap -AutoSize | Out-File "win_event1750184621782.txt" -Encoding UTF8
+ 
+If no java.exe (or related JVM processes) are listed below, you can disregard this message.
+To get more information about such errors:
+1) Open Windows Event Viewer (Win+R -> eventvwr.msc -> Enter).
+2) Click "Windows Logs" -> "Application".
+3) Look for the latest Error you have.
+ 
+ ﻿
+
+   ProviderName: SideBySide
+
+TimeCreated          Id LevelDisplayName Message                                                                       
+-----------          -- ---------------- -------                                                                       
+6/17/2025 8:23:40 PM 78 Error            Activation context generation failed for "D:\capciut\CapCut\CapCut.exe".Error 
+                                         in manifest or policy file "" on line . A component version required by the   
+                                         application conflicts with another component version already active.          
+                                         Conflicting components are:. Component 1: C:\WINDOWS\WinSxS\manifests\x86_micr
+                                         osoft.windows.common-controls_6595b64144ccf1df_6.0.19041.4355_none_a865f0c2867
+                                         2571c.manifest. Component 2: C:\WINDOWS\WinSxS\manifests\amd64_microsoft.windo
+                                         ws.common-controls_6595b64144ccf1df_6.0.19041.4355_none_60b8b9eb71f62e16.manif
+                                         est.                                                                          
+6/17/2025 8:23:40 PM 78 Error            Activation context generation failed for "D:\capciut\CapCut\CapCut.exe".Error 
+                                         in manifest or policy file "" on line . A component version required by the   
+                                         application conflicts with another component version already active.          
+                                         Conflicting components are:. Component 1: C:\WINDOWS\WinSxS\manifests\x86_micr
+                                         osoft.windows.common-controls_6595b64144ccf1df_6.0.19041.4355_none_a865f0c2867
+                                         2571c.manifest. Component 2: C:\WINDOWS\WinSxS\manifests\amd64_microsoft.windo
+                                         ws.common-controls_6595b64144ccf1df_6.0.19041.4355_none_60b8b9eb71f62e16.manif
+                                         est.                                                                          
+
+

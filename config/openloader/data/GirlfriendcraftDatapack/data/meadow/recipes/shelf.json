@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#V#",
+    "VDV",
+    "#V#"
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:pine_planks"
+    },
+    "V": {
+      "item": "regions_unexplored:pine_slab"
+    },
+    "D": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "result": {
+    "item": "meadow:shelf"
+  }
+}

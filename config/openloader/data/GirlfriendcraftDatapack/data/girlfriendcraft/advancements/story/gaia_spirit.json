@@ -1,0 +1,39 @@
+{
+  "parent": "girlfriendcraft:story/nether_star",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:life_essence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#55FF55",
+      "text": "Kill The Gaia Guardian and obtain its Essence"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "botania:life_essence"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Essence of Life"
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -80,7 +80,8 @@
       "regions_unexplored:ice_spire",
       "regions_unexplored:spruce_tree_tall_on_snow",
       "regions_unexplored:frozen_flowers",
-      "regions_unexplored:snow_grass"
+      "regions_unexplored:snow_grass",
+      "girlfriendcraft:oak_leaf_carpet_sparse"
     ],
     [
       "minecraft:freeze_top_layer"

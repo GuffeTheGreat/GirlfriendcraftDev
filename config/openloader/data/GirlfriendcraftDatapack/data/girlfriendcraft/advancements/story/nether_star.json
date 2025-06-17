@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:story/enter_the_nether",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#55FF55",
+      "text": "Kill The Wither and Obtain The Nether Star"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "The Power of the Nether!"
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "parent": "girlfriendcraft:story/crafting_table",
   "criteria": {
-    "0": {
+    "iron": {
       "conditions": {
         "items": [
           {
@@ -17,8 +17,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "color": "#55FF55",
-      "text": "Get yourself some Iron. Very important material for crafting all sort of stuff"
+      "translate": "advancements.story.smelt_iron.description"
     },
     "frame": "task",
     "hidden": false,
@@ -27,13 +26,13 @@
     },
     "show_toast": true,
     "title": {
-      "text": "Acquire Hardware"
+      "translate": "advancements.story.smelt_iron.title"
     }
   },
-  "rewards": {},
   "requirements": [
     [
-      "0"
+      "iron"
     ]
-  ]
+  ],
+  "sends_telemetry_event": true
 }

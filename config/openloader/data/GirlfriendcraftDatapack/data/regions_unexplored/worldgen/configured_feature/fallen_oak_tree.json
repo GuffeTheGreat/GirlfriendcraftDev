@@ -18,7 +18,7 @@
     "stump_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:diamond_block",
+        "Name": "minecraft:oak_log",
         "Properties": {
           "axis": "y"
         }
@@ -27,7 +27,7 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:gold_block",
+        "Name": "quark:hollow_oak_log",
         "Properties": {
           "axis": "y"
         }

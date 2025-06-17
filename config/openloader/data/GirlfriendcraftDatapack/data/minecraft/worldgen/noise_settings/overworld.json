@@ -609,6 +609,39 @@
                   "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
+                      "minecraft:stony_shore"
+                    ]
+                  },
+                  "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:vertical_gradient",
+                          "false_at_and_above": {
+                            "above_bottom": 200
+                          },
+                          "random_name": "girlfriendcraft:mossy_stone_stony_shore",
+                          "true_at_and_below": {
+                            "above_bottom": 0
+                          }
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "regions_unexplored:mossy_stone"
+                          }
+                        }
+                      }                    
+                    ]
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
                       "galosphere:crystal_canyons"
                     ]
                   },
@@ -2314,6 +2347,44 @@
                                   }
                                 },
                                 {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:vertical_gradient",
+                          "false_at_and_above": {
+                            "above_bottom": 150
+                          },
+                          "random_name": "girlfriendcraft:cold_desert_iron",
+                          "true_at_and_below": {
+                            "above_bottom": 50
+                          }
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "projectvibrantjourneys:ferrous_gravel"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:vertical_gradient",
+                          "false_at_and_above": {
+                            "above_bottom": 150
+                          },
+                          "random_name": "girlfriendcraft:cold_desert_gold",
+                          "true_at_and_below": {
+                            "above_bottom": 50
+                          }
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "projectvibrantjourneys:gilded_gravel"
+                          }
+                        }
+                      },
+                                {
                                   "type": "minecraft:block",
                                   "result_state": {
                                     "Name": "minecraft:gravel"
@@ -3654,6 +3725,44 @@
                                     }
                                   }
                                 },
+                                {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:vertical_gradient",
+                          "false_at_and_above": {
+                            "above_bottom": 150
+                          },
+                          "random_name": "girlfriendcraft:cold_desert_iron",
+                          "true_at_and_below": {
+                            "above_bottom": 50
+                          }
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "projectvibrantjourneys:ferrous_gravel"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:vertical_gradient",
+                          "false_at_and_above": {
+                            "above_bottom": 150
+                          },
+                          "random_name": "girlfriendcraft:cold_desert_gold",
+                          "true_at_and_below": {
+                            "above_bottom": 50
+                          }
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "projectvibrantjourneys:gilded_gravel"
+                          }
+                        }
+                      },
                                 {
                                   "type": "minecraft:block",
                                   "result_state": {

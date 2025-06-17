@@ -88,6 +88,34 @@
       {
         "namespace": "tconstruct",
         "path": "smeltery/melting/metal/zinc"
+      },
+      {
+        "namespace": "meadow",
+        "path": "recipes/wood_cutter"
+      },
+      {
+        "namespace": "meadow",
+        "path": "recipes/cooking_pot"
+      },
+      {
+        "namespace": "conditional",
+        "path": "recipes/beachparty"
+      },
+      {
+        "namespace": "conditional",
+        "path": "recipes/decorative_blocks"
+      },
+      {
+        "namespace": "conditional",
+        "path": "recipes/farm_and_charm"
+      },
+      {
+        "namespace": "conditional",
+        "path": "recipes/regions_unexplored"
+      },
+      {
+        "namespace": "conditional",
+        "path": "recipes/vinery"
       }
   ]
 }

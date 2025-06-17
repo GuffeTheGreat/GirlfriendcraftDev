@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "everycomp:af/regions_unexplored/pine_shutter"
+    }
+  ],
+  "result": {
+    "item":  "meadow:shutter_block"
+  }
+}
