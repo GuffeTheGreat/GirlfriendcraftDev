@@ -1,56 +1,29 @@
 [
+
   {
-    "mob": "minecraft:zombie",
-    "biome": "minecraft:lush_caves",
+    "mob": ["minecraft:zombie","minecraft:creeper", "minecraft:skeleton"],
+    "biome": [
+    "minecraft:lush_caves",
+    "minecraft:dripstone_caves",
+    "biomesoplenty:spider_nest",
+    "biomesoplenty:glowing_grotto",
+    "quark:glimmering_weald",
+    "yungscavebiomes:lost_caves",
+    "yungscavebiomes:frosted_caves",
+    "galosphere:crystal_canyons",
+    "galosphere:pink_salt_caves",
+    "galosphere:lichen_caves",
+    "regions_unexplored:scorching_caves",
+    "regions_unexplored:prismachasm",
+    "regions_unexplored:ancient_delta",
+    "regions_unexplored:bioshroom_caves",
+    "regions_unexplored:redstone_caves",
+    "snifferplus:timeless_grotto"
+  ],
     "result": "allow"
   },
   {
-    "mob": "minecraft:spider",
-    "biome": "minecraft:dark_forest",
-    "result": "allow"
-  },
-  {
-    "mob": "minecraft:zombie",
-    "result": "deny"
-  },
-  {
-    "mob": "minecraft:skeleton",
-    "result": "deny"
-  },
-  {
-    "mob": "minecraft:enderman",
-    "result": "deny"
-  },
-  {
-    "mob": "minecraft:creeper",
-    "result": "deny"
-  },
-  {
-    "mob": "minecraft:spider",
-    "result": "deny"
-  },
-  {
-    "mob": "minecraft:drowned",
-    "result": "deny"
-  },
-  {
-    "mob": "minecraft:husk",
-    "result": "deny"
-  },
-  {
-    "mob": "minecraft:witch",
-    "result": "deny"
-  },
-  {
-    "mob": "minecraft:stray",
-    "result": "deny"
-  },
-  {
-    "mob": "minecraft:magma_cube",
-    "result": "deny"
-  },
-  {
-    "mob": "minecraft:slime",
+    "mob": ["minecraft:zombie","minecraft:creeper", "minecraft:skeleton"],
     "result": "deny"
   }
 ]

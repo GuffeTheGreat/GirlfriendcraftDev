@@ -68,6 +68,9 @@ let blockBlocks = [
     { tag: 'minecraft:waxed_copper_block_blocks', block: 'waxed_exposed_copper' },
     { tag: 'minecraft:waxed_copper_block_blocks', block: 'waxed_weathered_copper' },
     { tag: 'minecraft:waxed_copper_block_blocks', block: 'waxed_oxidized_copper' },
+
+    { tag: 'minecraft:glass_blocks', block: 'glass' },
+    { tag: 'minecraft:glass_pane', block: 'glass_pane' },
  
   ];
 

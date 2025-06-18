@@ -25,8 +25,13 @@ ServerEvents.recipes(event => {
     input: "minecraft:glass_bottle",
     output: "spelunkery:portal_fluid_bottle"
   },
+  { // Spelunkery Portal Fluid
+    fluid: { fluid: "spelunkery:portal_fluid", amount: 144 },
+    input: "minecraft:obsidian",
+    output: "minecraft:crying_obsidian"
+  },
   { // Shulker Box
-    fluid: { fluid: "spelunkery:portal_fluid", amount: 1000 },
+    fluid: { fluid: "spelunkery:portal_fluid", amount: 576 },
     input: "create:cardboard_block",
     output: "minecraft:shulker_box"
   },
@@ -34,6 +39,11 @@ ServerEvents.recipes(event => {
     fluid: { fluid: "minecraft:water", amount: 100 },
     input: "caverns_and_chasms:dripstone_shingles",
     output: "caverns_and_chasms:flooded_dripstone_shingles"
+  },
+  { // Mud
+    fluid: { fluid: "minecraft:water", amount: 250 },
+    input: "minecraft:dirt",
+    output: "minecraft:mud"
   },
 ]
 

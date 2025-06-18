@@ -37,6 +37,92 @@ ServerEvents.tags('item', event => {
         'minecraft:polished_blackstone_button'
       ],
 
+      'minecraft:smelts_to_glass': [
+        'yungscavebiomes:ancient_sand'
+      ],
+
+      'minecraft:glass': [
+        'minecraft:glass', 
+        'minecraft:white_stained_glass', 
+        'minecraft:light_gray_stained_glass', 
+        'minecraft:gray_stained_glass', 
+        'minecraft:black_stained_glass', 
+        'minecraft:brown_stained_glass', 
+        'minecraft:red_stained_glass', 
+        'minecraft:orange_stained_glass', 
+        'minecraft:yellow_stained_glass', 
+        'minecraft:lime_stained_glass', 
+        'minecraft:green_stained_glass', 
+        'minecraft:cyan_stained_glass', 
+        'minecraft:light_blue_stained_glass', 
+        'minecraft:blue_stained_glass', 
+        'minecraft:purple_stained_glass', 
+        'minecraft:magenta_stained_glass', 
+        'minecraft:pink_stained_glass', 
+        'quark:dirty_glass'
+       ],
+
+      'minecraft:coal_ores': [
+        'spelunkery:andesite_coal_ore', 
+        'spelunkery:diorite_coal_ore', 
+        'spelunkery:granite_coal_ore', 
+        'spelunkery:tuff_coal_ore', 
+        'alexscaves:coprolith_coal_ore'
+      ],
+
+      'minecraft:copper_ores': [
+        'spelunkery:andesite_copper_ore', 
+        'spelunkery:diorite_copper_ore', 
+        'spelunkery:granite_copper_ore', 
+        'spelunkery:tuff_copper_ore'
+      ],
+
+      'minecraft:iron_ores': [
+        'spelunkery:andesite_iron_ore', 
+        'spelunkery:diorite_iron_ore', 
+        'spelunkery:granite_iron_ore', 
+        'spelunkery:tuff_iron_ore', 
+        'alexscaves:galena_iron_ore'
+      ],
+
+      'minecraft:gold_ores': [
+        'spelunkery:andesite_gold_ore', 
+        'spelunkery:diorite_gold_ore', 
+        'spelunkery:granite_gold_ore', 
+        'spelunkery:tuff_gold_ore'
+      ],
+
+      'minecraft:redstone_ores': [
+        'spelunkery:andesite_redstone_ore', 
+        'spelunkery:diorite_redstone_ore', 
+        'spelunkery:granite_redstone_ore', 
+        'spelunkery:tuff_redstone_ore', 
+        'spelunkery:calcite_redstone_ore', 
+        'alexscaves:guanostone_redstone_ore'
+      ],
+
+      'minecraft:lapis_ores': [
+        'spelunkery:andesite_lapis_ore', 
+        'spelunkery:diorite_lapis_ore', 
+        'spelunkery:granite_lapis_ore', 
+        'spelunkery:tuff_lapis_ore', 
+        'spelunkery:sandstone_lapis_ore'
+      ],
+
+      'minecraft:diamond_ores': [
+        'spelunkery:andesite_diamond_ore', 
+        'spelunkery:diorite_diamond_ore', 
+        'spelunkery:granite_diamond_ore', 
+        'spelunkery:tuff_diamond_ore', 
+        'spelunkery:smooth_basalt_diamond_ore'
+      ],
+
+      'minecraft:emerald_ores': [
+        'spelunkery:andesite_emerald_ore', 
+        'spelunkery:diorite_emerald_ore', 
+        'spelunkery:granite_emerald_ore', 
+        'spelunkery:tuff_emerald_ore'
+      ],
       
       /*
       'girlfriendcraft:resin_blocks': [

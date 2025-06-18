@@ -16,7 +16,7 @@
     "background": "minecraft:textures/block/stone.png",
     "description": {
       "color": "#55FF55",
-      "text": "Welcome to Girlfriendcraft! Hope you enjoy time here! This is the Tab for Main Progression, but as you play other tabs filled with Goals and Tips will Unlock!"
+      "text": "Hope you enjoy your time playing! In this pack there are no Advancements, instead please refer to FTB Questbook for Guidance"
     },
     "frame": "task",
     "hidden": false,
@@ -26,7 +26,7 @@
     "show_toast": false,
     "title": {
       "color": "#FFFFFF",
-      "text": "Girlfriendcraft"
+      "text": "Welcome to Girlfriendcraft!"
     }
   },
   "rewards": {},

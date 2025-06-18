@@ -41,6 +41,24 @@ ClientEvents.lang('en_us', event => {
       { id: 'createdeco:blue_andesite_lamp', name: 'Blue Sturdy Stone Lamp' },
       { id: 'createdeco:green_andesite_lamp', name: 'Green Sturdy Stone Lamp' },
 
+      // Shulkerbox
+      { id: 'minecraft:shulker_box', name: 'Dimensionally Infused Cardbox Box' },
+      { id: 'minecraft:lime_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
+      { id: 'minecraft:white_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
+      { id: 'minecraft:black_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
+      { id: 'minecraft:gray_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
+      { id: 'minecraft:light_gray_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
+      { id: 'minecraft:red_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
+      { id: 'minecraft:blue_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
+      { id: 'minecraft:green_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
+      { id: 'minecraft:yellow_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
+      { id: 'minecraft:purple_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
+      { id: 'minecraft:orange_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
+      { id: 'minecraft:brown_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
+      { id: 'minecraft:magenta_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
+      { id: 'minecraft:cyan_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
+      { id: 'minecraft:pink_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
+      { id: 'minecraft:light_blue_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
   
 
       /*
@@ -62,24 +80,7 @@ ClientEvents.lang('en_us', event => {
       { id: 'caverns_and_chasms:mossy_cobblestone_brick_slab', name: 'Mossy Small Cobblestone Brick Slab' },
       { id: 'caverns_and_chasms:mossy_cobblestone_brick_wall', name: 'Mossy Small Cobblestone Brick Wall' },
 
-      // Shulkerbox
-      { id: 'minecraft:shulker_box', name: 'Dimensionally Infused Cardbox Box' },
-      { id: 'minecraft:lime_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
-      { id: 'minecraft:white_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
-      { id: 'minecraft:black_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
-      { id: 'minecraft:gray_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
-      { id: 'minecraft:light_gray_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
-      { id: 'minecraft:red_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
-      { id: 'minecraft:blue_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
-      { id: 'minecraft:green_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
-      { id: 'minecraft:yellow_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
-      { id: 'minecraft:purple_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
-      { id: 'minecraft:orange_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
-      { id: 'minecraft:brown_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
-      { id: 'minecraft:magenta_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
-      { id: 'minecraft:cyan_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
-      { id: 'minecraft:pink_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
-      { id: 'minecraft:light_blue_shulker_box', name: 'Dimensionally Infused Cardbox Box' },
+      
 
       // Bars
       { id: 'create:copper_bars', name: 'Detailed Copper Bars' },

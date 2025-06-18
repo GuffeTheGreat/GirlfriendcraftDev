@@ -43,10 +43,6 @@
     "modId": "balm",
     "version": "7.3.31"
   },
-  "BetterAdvancements-Forge-1.20.1-0.4.2.25.jar": {
-    "modId": "betteradvancements",
-    "version": "0.4.2.25"
-  },
   "betterarcheology-1.2.1-1.20.1.jar": {
     "modId": "betterarcheology",
     "version": "1.2.1-1.20.1"
@@ -86,6 +82,10 @@
   "citadel-2.6.1-1.20.1.jar": {
     "modId": "citadel",
     "version": "2.6.1"
+  },
+  "cleanswing-1.20-1.8.jar": {
+    "modId": "cleanswing",
+    "version": "1.8"
   },
   "cloth-config-11.1.136-forge.jar": {
     "modId": "cloth_config",
@@ -155,6 +155,10 @@
     "modId": "emi",
     "version": "1.1.22+1.20.1+forge"
   },
+  "emi_ores-1.2+1.20.1+forge.jar": {
+    "modId": "emi_ores",
+    "version": "1.2+1.20.1+forge"
+  },
   "EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar": {
     "modId": "enchdesc",
     "version": "17.1.19"
@@ -202,6 +206,26 @@
   "flib-1.20.1-0.0.15.jar": {
     "modId": "flib",
     "version": "0.0.15"
+  },
+  "ftb-filter-system-forge-20.0.1.jar": {
+    "modId": "ftbfiltersystem",
+    "version": "20.0.1"
+  },
+  "ftb-library-forge-2001.2.9.jar": {
+    "modId": "ftblibrary",
+    "version": "2001.2.9"
+  },
+  "ftb-quests-forge-2001.4.13.jar": {
+    "modId": "ftbquests",
+    "version": "2001.4.13"
+  },
+  "ftb-teams-forge-2001.3.1.jar": {
+    "modId": "ftbteams",
+    "version": "2001.3.1"
+  },
+  "ftb-xmod-compat-forge-2.1.3.jar": {
+    "modId": "ftbxmodcompat",
+    "version": "2.1.3"
   },
   "fullstackwatchdog-1.0.1+1.19.2-forge.jar": {
     "modId": "fullstackwatchdog",
@@ -344,9 +368,17 @@
     "modId": "naturescompass",
     "version": "1.20.1-1.11.2-forge"
   },
+  "Neruina-2.1.2-forge+1.20.1.jar": {
+    "modId": "neruina",
+    "version": "2.1.2"
+  },
   "obscure_api-15.jar": {
     "modId": "obscure_api",
     "version": "15"
+  },
+  "oculus-mc1.20.1-1.8.0.jar": {
+    "modId": "oculus",
+    "version": "1.8.0"
   },
   "open-parties-and-claims-forge-1.20.1-0.24.0.jar": {
     "modId": "openpartiesandclaims",
@@ -451,10 +483,6 @@
   "spelunkery-1.20.1-0.3.16-forge.jar": {
     "modId": "spelunkery",
     "version": "1.20.1-0.3.16"
-  },
-  "splendid_slimes-0.12.2.jar": {
-    "modId": "splendid_slimes",
-    "version": "0.12.2"
   },
   "stonezone-1.20-2.8.8.jar": {
     "modId": "stonezone",

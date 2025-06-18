@@ -27,6 +27,14 @@ ServerEvents.recipes(event => {
       { amount: 1152, fluid: "spelunkery:portal_fluid" }
     ],
   },
+  { // Coarse Dirt
+    ingredients: [
+      { item: "minecraft:dirt" },{ item: "minecraft:gravel" }
+    ],
+    results: [
+      { count: 2, item: "minecraft:coarse:dirt" }
+    ],
+  },
 
 ]
 

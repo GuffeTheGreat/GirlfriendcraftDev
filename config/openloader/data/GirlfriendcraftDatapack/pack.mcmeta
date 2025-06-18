@@ -116,6 +116,10 @@
       {
         "namespace": "conditional",
         "path": "recipes/vinery"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "advancements"
       }
   ]
 }
