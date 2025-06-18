@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => { 
  
-     let splashingRecipes = [
+     let hauntingRecipes = [
       {
         ingredients: [{ item: 'galosphere:chiseled_pink_salt' }],
         results: [
@@ -185,7 +185,7 @@ ServerEvents.recipes(event => {
         },
       ]
       
-      splashingRecipes.forEach(recipe => {
+      hauntingRecipes.forEach(recipe => {
         event.custom({
           type: "create:haunting",
           ingredients: recipe.ingredients,

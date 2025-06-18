@@ -12,6 +12,27 @@ ServerEvents.recipes((event) => {
   "minecraft:granite",
   "minecraft:diorite",
   "minecraft:andesite",
+  "minecraft:packed_mud",
+  "minecraft:smooth_sandstone",
+  "minecraft:smooth_red_sandstone",
+  "minecraft:prismarine_bricks",
+  "minecraft:smooth_basalt",
+  "minecraft:dye_white_wool",
+  "minecraft:dye_light_gray_wool",
+  "minecraft:dye_gray_wool",
+  "minecraft:dye_black_wool",
+  "minecraft:dye_brown_wool",
+  "minecraft:dye_red_wool",
+  "minecraft:dye_orange_wool",
+  "minecraft:dye_yellow_wool",
+  "minecraft:dye_lime_wool",
+  "minecraft:dye_green_wool",
+  "minecraft:dye_cyan_wool",
+  "minecraft:dye_light_blue_wool",
+  "minecraft:dye_blue_wool",
+  "minecraft:dye_purple_wool",
+  "minecraft:dye_magenta_wool",
+  "minecraft:dye_pink_wool",
   "",
   "",
   "",
@@ -21,6 +42,7 @@ ServerEvents.recipes((event) => {
   "",
   "",
   "",
+
 
   // Tinkers
   "tconstruct:smeltery/casting/ender/eye",
@@ -34,8 +56,7 @@ ServerEvents.recipes((event) => {
   // Farmers Delight
   "farmersdelight:organic_compost_from_rotten_flesh",
   "farmersdelight:organic_compost_from_tree_bark",
-  "farmersdelight:cutting/stone",
-  "",
+  "farmersdelight:cutting/gravel",
   "",
   "",
   "",
@@ -71,10 +92,13 @@ ServerEvents.recipes((event) => {
   "create:haunting/infested_cracked_stone_bricks",
   "create:haunting/infested_chiseled_stone_bricks",
   "create:milling/andesite",
-  "",
-  "",
-  "",
-  "",
+  "create:milling/cobblestone",
+  "create:milling/sandstone",
+  "create:milling/dripstone_block",
+  "create:milling/clay",
+  "create:milling/granite",
+  "create:milling/terracotta",
+  "minecraft:cut_copper",
   "",
   "",
   "",
@@ -91,8 +115,8 @@ ServerEvents.recipes((event) => {
 
   //Botania
   "botania:pure_daisy/cobblestone",
-  "",
-  "",
+  "botania:pure_daisy/sand",
+  "botania:pure_daisy/end_stone_to_cobbled_deepslate",
   "",
   "",
   "",
@@ -121,8 +145,38 @@ ServerEvents.recipes((event) => {
   "",
   "",
 
+   //Caverns
+  "caverns_and_chasms:calcite",
+  "caverns_and_chasms:tuff",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  
+  // Jadens Nether
+  "netherexp:cooking/netherrack",
+
+
   //Spelunkery
-  "spelunkery:cobblestone_from_pebble"
+  "spelunkery:cobblestone_from_pebble",
+  "spelunkery:cobbled_deepslate_from_pebble",
+  "spelunkery:netherrack_from_pebble",
+  "spelunkery:basalt_from_pebble",
+  "spelunkery:blackstone_from_pebble",
+  "spelunkery:end_stone_from_pebble",
+  "",
+  "",
+  "",
+  "",
+  "",
 
       ];
 

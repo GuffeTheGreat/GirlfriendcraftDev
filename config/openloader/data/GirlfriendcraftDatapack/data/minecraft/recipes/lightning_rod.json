@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "createaddition:copper_rod"
+    },
+    "O": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "O",
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "minecraft:lightning_rod"
+  },
+  "show_notification": true
+}

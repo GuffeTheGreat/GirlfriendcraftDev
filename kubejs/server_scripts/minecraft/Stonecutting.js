@@ -29,6 +29,15 @@ ServerEvents.recipes(event => {
             'minecraft:stone_pressure_plate', 
             'minecraft:stone_button']
         },
+        {
+        input: '#minecraft:blackstone_blocks', outputs: [
+            'minecraft:polished_blackstone_pressure_plate', 
+            'minecraft:polished_blackstone_button']
+        },
+        {
+        input: 'minecraft:copper_ingot', outputs: [
+            'minecraft:cut_copper']
+        },
 
   ];
 

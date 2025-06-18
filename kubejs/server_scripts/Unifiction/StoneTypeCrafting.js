@@ -25,6 +25,11 @@ ServerEvents.recipes(event => {
     { output: '4x stonezone:c/tconstruct/small_seared_stone_bricks', input: 'tconstruct:seared_paver' },
     { output: '4x stonezone:c/tconstruct/small_scorched_stone_bricks', input: 'tconstruct:scorched_road' },
     { output: '4x minecraft:smooth_stone', input: 'supplementaries:stone_tile' },
+    { output: '4x minecraft:smooth_sandstone', input: 'minecraft:cut_sandstone' },
+    { output: '4x minecraft:smooth_red_sandstone', input: 'minecraft:cut_red_sandstone' },
+    { output: '4x minecraft:prismarine_bricks', input: 'minecraft:prismarine' },
+    { output: '4x minecraft:smooth_basalt', input: 'minecraft:polished_basalt' },
+    { output: '4x minecraft:cut_copper', input: 'minecraft:copper_ingot' },
 
   ];
 

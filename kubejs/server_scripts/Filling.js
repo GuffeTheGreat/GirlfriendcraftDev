@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
     output: "create:blaze_cake"
   },
   { // Spelunkery Portal Fluid
-    fluid: { fluid: "spelunkery:portal_fluid", amount: 250 },
+    fluid: { fluid: "spelunkery:portal_fluid", amount: 144 },
     input: "minecraft:glass_bottle",
     output: "spelunkery:portal_fluid_bottle"
   },

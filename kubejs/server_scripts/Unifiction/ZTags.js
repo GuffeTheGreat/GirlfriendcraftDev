@@ -32,6 +32,11 @@ ServerEvents.tags('item', event => {
         'minecraft:stone_button'
       ],
 
+      'minecraft:blackstone_blocks': [
+        'minecraft:polished_blackstone_pressure_plate', 
+        'minecraft:polished_blackstone_button'
+      ],
+
       
       /*
       'girlfriendcraft:resin_blocks': [

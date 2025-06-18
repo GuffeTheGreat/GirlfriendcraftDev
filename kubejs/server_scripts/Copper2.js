@@ -19,15 +19,15 @@ ServerEvents.recipes(event => {
     });
   };
 
-  const createFillingRecipe = (event, output, fluid, input) => {
+  const createFillingRecipe = (event, output, input) => {
      event.custom({
     type: "create:filling",
     ingredients: [
-      { item: i(input) },
-      fluid
+      { item: input },{amount: 50,  fluid: "minecraft:water"}
+      
     ],
     results: [
-      { item: i(output) }
+      { item: output }
     ]
   })
   };
@@ -256,6 +256,11 @@ ServerEvents.recipes(event => {
     removeWaxingRecipe(event, recipe.waxed_weathered);
     removeWaxingRecipe(event, recipe.waxed_oxidized);
 
+    event.remove({ output: recipe.normal, type: 'create:deploying' });
+    event.remove({ output: recipe.exposed, type: 'create:deploying' });
+    event.remove({ output: recipe.weathered, type: 'create:deploying' });
+    event.remove({ output: recipe.oxidized, type: 'create:deploying' });
+
     createItemApplication(event, i(recipe.normal), 'minecraft:honeycomb', i(recipe.waxed_normal));
     createItemApplication(event, i(recipe.exposed), 'minecraft:honeycomb', i(recipe.waxed_exposed));
     createItemApplication(event, i(recipe.weathered), 'minecraft:honeycomb', i(recipe.waxed_weathered));
@@ -270,9 +275,12 @@ ServerEvents.recipes(event => {
     createItemApplicationWithTag(event, i(recipe.oxidized), 'minecraft:axes', i(recipe.weathered));
     createItemApplicationWithTag(event, i(recipe.exposed), 'minecraft:axes', i(recipe.normal));
 
-    createFillingRecipe(event, recipe.exposed, Fluid.of('minecraft:water', 50), recipe.normal);
-    createFillingRecipe(event, recipe.weathered, Fluid.of('minecraft:water', 50), recipe.exposed);
-    createFillingRecipe(event, recipe.oxidized, Fluid.of('minecraft:water', 50), recipe.weathered);
+    createFillingRecipe(event, recipe.exposed, recipe.normal);
+    createFillingRecipe(event, recipe.weathered, recipe.exposed);
+    createFillingRecipe(event, recipe.oxidized, recipe.weathered);
+
+
+
   });
 });
 
