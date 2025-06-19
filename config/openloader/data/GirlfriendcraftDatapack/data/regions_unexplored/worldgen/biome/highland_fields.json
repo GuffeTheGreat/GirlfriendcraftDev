@@ -78,9 +78,7 @@
       "regions_unexplored:noise_rocks",
       "regions_unexplored:noise_bush",
       "regions_unexplored:daisies",
-      "regions_unexplored:grass",
-      "meadow:meadow_grass_patch",
-      "meadow:meadow_flowers"
+      "regions_unexplored:grass"
     ],
     [
       "minecraft:freeze_top_layer"

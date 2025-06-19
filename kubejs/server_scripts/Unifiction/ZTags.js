@@ -123,6 +123,18 @@ ServerEvents.tags('item', event => {
         'spelunkery:granite_emerald_ore', 
         'spelunkery:tuff_emerald_ore'
       ],
+
+      'minecraft:rough_gems_cheap': [
+        'spelunkery:rough_cinnabar',
+        'spelunkery:rough_lazurite'
+      ],
+
+      'minecraft:gems_cheap': [
+        'spelunkery:cinnabar', 
+        'minecraft:lapis_lazuli'],
+
+      
+
       
       /*
       'girlfriendcraft:resin_blocks': [

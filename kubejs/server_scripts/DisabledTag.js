@@ -4,7 +4,23 @@ ServerEvents.tags('item', event => {
 
   // Disabled Items
   const removeTags = [
-    
+
+    //Tools
+    'minecraft:wooden_shovel',
+    'minecraft:wooden_pickaxe', 
+    'minecraft:wooden_hoe', 
+    'minecraft:wooden_sword', 
+    'minecraft:wooden_axe',
+    'minecraft:stone_shovel', 
+    'minecraft:stone_pickaxe', 
+    'minecraft:stone_axe',
+    'minecraft:stone_hoe',
+
+    // Flint Armor
+    'pickletweaks:flint_helmet', 
+  'pickletweaks:flint_chestplate', 
+  'pickletweaks:flint_leggings', 
+  'pickletweaks:flint_boots', 
 
     // Zinc
       'create:zinc_ingot', 
@@ -126,7 +142,21 @@ ServerEvents.tags('item', event => {
     'meadow:cobbled_limestone_wall', 
     'meadow:limestone_brick_wall', 
     'meadow:mossy_cobbled_limestone_wall', 
-    'meadow:mossy_limestone_brick_wall'
+    'meadow:mossy_limestone_brick_wall',
+
+    //Botania
+    'botania:apothecary_default', 
+        'botania:apothecary_mossy', 
+        'botania:apothecary_livingrock', 
+        'botania:apothecary_deepslate',
+    'botania:apothecary_forest', 
+      'botania:apothecary_plains', 
+      'botania:apothecary_mountain', 
+      'botania:apothecary_fungal', 
+      'botania:apothecary_swamp', 
+      'botania:apothecary_desert', 
+      'botania:apothecary_taiga', 
+      'botania:apothecary_mesa'
 
     /*
     // Stone Tools

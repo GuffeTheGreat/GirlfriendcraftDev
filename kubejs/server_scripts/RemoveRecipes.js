@@ -68,6 +68,7 @@ ServerEvents.recipes((event) => {
   "minecraft:emerald_from_smelting_deepslate_emerald_ore",
   "minecraft:lapis_lazuli_from_blasting_deepslate_lapis_ore",
   "minecraft:diamond_from_smelting_deepslate_diamond_ore",
+  
   "",
   "",
 
@@ -163,17 +164,16 @@ ServerEvents.recipes((event) => {
   "yungscavebiomes:glass_from_ancient_sand",
   "",
 
+  // Roots
+  "rootsclassic:brazier",
+  "rootsclassic:altar",
+  "rootsclassic:mundane_standing_stone",
+  "",
+  "",
+  "",
+  "",
+
   //Botania
-  "botania:pure_daisy/cobblestone",
-  "botania:pure_daisy/sand",
-  "botania:pure_daisy/end_stone_to_cobbled_deepslate",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
   "",
   "",
   "",
@@ -182,9 +182,9 @@ ServerEvents.recipes((event) => {
    //Quark
   "quark:building/crafting/sturdy_stone_decompress",
   "quark:tweaks/smelting/clean_glass",
-  "",
-  "",
-  "",
+  "quark:building/crafting/sturdy_stone",
+  "quark:building/crafting/furnaces/mixed_furnace",
+  "quark:building/crafting/furnaces/cobblestone_furnace",
   "",
   "",
   "",
@@ -254,6 +254,9 @@ ServerEvents.recipes((event) => {
   event.remove({ id: recipeid })
 
       })
+
+  event.remove({ output: "#girlfriendcraft:disabled" })
+  event.remove({ input: "#girlfriendcraft:disabled" })
 
       });
  

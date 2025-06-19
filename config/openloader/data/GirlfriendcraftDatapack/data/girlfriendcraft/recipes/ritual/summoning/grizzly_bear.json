@@ -1,0 +1,19 @@
+{
+  "type": "rootsclassic:ritual",
+  "effect": "rootsclassic:summoning",
+  "level": 1,
+  "color": "#c769c1",
+  "ingredients": [
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "item": "minecraft:salmon"
+    },
+    {
+      "item": "minecraft:beef"
+    }
+  ],
+  "incenses": [],
+  "entity": "alexsmobs:grizzly_bear"
+}

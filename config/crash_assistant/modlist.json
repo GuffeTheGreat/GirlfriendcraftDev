@@ -7,9 +7,17 @@
     "modId": "alexscaves",
     "version": "2.0.2"
   },
+  "alexsmobs-1.22.9.jar": {
+    "modId": "alexsmobs",
+    "version": "1.22.9"
+  },
   "alternate_current-mc1.20-1.7.0.jar": {
     "modId": "alternate_current",
     "version": "1.7.0"
+  },
+  "AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar": {
+    "modId": "ambientsounds",
+    "version": "6.1.11"
   },
   "amendments-1.20-1.2.19.jar": {
     "modId": "amendments",
@@ -42,14 +50,6 @@
   "balm-forge-1.20.1-7.3.31-all.jar": {
     "modId": "balm",
     "version": "7.3.31"
-  },
-  "betterarcheology-1.2.1-1.20.1.jar": {
-    "modId": "betterarcheology",
-    "version": "1.2.1-1.20.1"
-  },
-  "biomemakeover-FORGE-1.20.1-1.11.4.jar": {
-    "modId": "biomemakeover",
-    "version": "1.20.1-1.11.4"
   },
   "BiomesOPlenty-1.20.1-18.0.0.592.jar": {
     "modId": "biomesoplenty",
@@ -127,6 +127,14 @@
     "modId": "createdeco",
     "version": "2.0.3-1.20.1-forge"
   },
+  "CreativeCore_FORGE_v2.12.32_mc1.20.1.jar": {
+    "modId": "creativecore",
+    "version": "2.12.32"
+  },
+  "Cucumber-1.20.1-7.0.13.jar": {
+    "modId": "cucumber",
+    "version": "7.0.13"
+  },
   "cupboard-1.20.1-2.7.jar": {
     "modId": "cupboard",
     "version": "1.20.1-2.7"
@@ -139,10 +147,6 @@
     "modId": "cyanide",
     "version": "4.1.1"
   },
-  "Delightful-1.20.1-3.7.2.jar": {
-    "modId": "delightful",
-    "version": "3.7.2"
-  },
   "dynamic-fps-3.9.5+minecraft-1.20.0-forge.jar": {
     "modId": "dynamic_fps",
     "version": "3.9.5"
@@ -154,6 +158,10 @@
   "emi-1.1.22+1.20.1+forge.jar": {
     "modId": "emi",
     "version": "1.1.22+1.20.1+forge"
+  },
+  "emi_loot-0.7.6+1.20.1+forge.jar": {
+    "modId": "emi_loot",
+    "version": "0.7.6+1.20.1+forge"
   },
   "emi_ores-1.2+1.20.1+forge.jar": {
     "modId": "emi_ores",
@@ -255,14 +263,6 @@
     "modId": "guideme",
     "version": "20.1.9"
   },
-  "hearth_and_home-forge-1.20.1-2.0.1.jar": {
-    "modId": "hearth_and_home",
-    "version": "1.20.1-2.0.1"
-  },
-  "Highlighter-1.20.1-forge-1.1.9.jar": {
-    "modId": "highlighter",
-    "version": "1.1.9"
-  },
   "Iceberg-1.20.1-forge-1.1.25.jar": {
     "modId": "iceberg",
     "version": "1.1.25"
@@ -324,10 +324,6 @@
     "modId": "beachparty",
     "version": "2.0.2"
   },
-  "letsdo-meadow-forge-1.3.25.jar": {
-    "modId": "meadow",
-    "version": "1.3.25"
-  },
   "lmft-1.0.4+1.20.1-forge.jar": {
     "modId": "lmft",
     "version": "1.0.4+1.20.1"
@@ -356,9 +352,13 @@
     "modId": "modernfix",
     "version": "5.23.1+mc1.20.1"
   },
-  "moonlight-1.20-2.14.6-forge.jar": {
+  "moonlight-1.20-2.14.7-forge.jar": {
     "modId": "moonlight",
-    "version": "1.20-2.14.6"
+    "version": "1.20-2.14.7"
+  },
+  "moreoverlays-1.22.7-mc1.20.2.jar": {
+    "modId": "moreoverlays",
+    "version": "1.22.7-mc1.20.2"
   },
   "MouseTweaks-forge-mc1.20.1-2.25.1.jar": {
     "modId": "mousetweaks",
@@ -399,6 +399,10 @@
   "Patchouli-1.20.1-84.1-FORGE.jar": {
     "modId": "patchouli",
     "version": "1.20.1-84.1-FORGE"
+  },
+  "PickleTweaks-1.20.1-8.0.5.jar": {
+    "modId": "pickletweaks",
+    "version": "8.0.5"
   },
   "Placebo-1.20.1-8.6.3.jar": {
     "modId": "placebo",
@@ -447,10 +451,6 @@
   "RootsClassic-1.20.1-1.4.2.jar": {
     "modId": "rootsclassic",
     "version": "1.4.2"
-  },
-  "rusticdelight-forge-1.20.1-1.4.1.jar": {
-    "modId": "rusticdelight",
-    "version": "1.4.1"
   },
   "Searchables-forge-1.20.1-1.0.3.jar": {
     "modId": "searchables",
@@ -503,10 +503,6 @@
   "supplementaries-1.20-3.1.31.jar": {
     "modId": "supplementaries",
     "version": "1.20-3.1.31"
-  },
-  "sweety_archaeology-1.0.9-forge-1.20.1.jar": {
-    "modId": "sweety_archaeology",
-    "version": "1.0.9"
   },
   "TConstruct-1.20.1-3.10.1.76.jar": {
     "modId": "tconstruct",

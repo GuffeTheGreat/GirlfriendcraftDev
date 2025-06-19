@@ -1,0 +1,31 @@
+{
+  "type": "rootsclassic:ritual",
+  "effect": "rootsclassic:crafting",
+  "level": 0,
+  "color": "#92d62b",
+  "ingredients": [
+    {
+      "item": "quark:sturdy_stone"
+    },
+    {
+      "item": "quark:sturdy_stone"
+    }
+  ],
+  "incenses": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "result": {
+    "item": "rootsclassic:mundane_standing_stone"
+  }
+}

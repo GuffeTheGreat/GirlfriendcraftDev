@@ -16,7 +16,7 @@
 #Options related to recipes, limited options as a datapack allows most recipes to be modified
 [recipes]
 	#Add a recipe that allows you to craft a piece of flint using 3 gravel
-	addGravelToFlintRecipe = false
+	addGravelToFlintRecipe = true
 	#Makes the recipe to alloy netherite in the smeltery only cost 2 gold per netherite ingot. If false uses the vanilla rate of 4 gold per ingot. Disable if there are crafting duplications.
 	cheaperNetheriteAlloy = true
 	#Makes wither skeletons drop necrotic bones

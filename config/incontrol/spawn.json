@@ -1,15 +1,12 @@
 [
 
   {
-    "mob": ["minecraft:zombie","minecraft:creeper", "minecraft:skeleton"],
+    "mob": ["minecraft:zombie", "minecraft:zombie_villager","minecraft:creeper","minecraft:skeleton", "minecraft:enderman", "minecraft:witch"],
     "biome": [
     "minecraft:lush_caves",
     "minecraft:dripstone_caves",
-    "biomesoplenty:spider_nest",
     "biomesoplenty:glowing_grotto",
     "quark:glimmering_weald",
-    "yungscavebiomes:lost_caves",
-    "yungscavebiomes:frosted_caves",
     "galosphere:crystal_canyons",
     "galosphere:pink_salt_caves",
     "galosphere:lichen_caves",
@@ -23,7 +20,29 @@
     "result": "allow"
   },
   {
-    "mob": ["minecraft:zombie","minecraft:creeper", "minecraft:skeleton"],
+    "mob": ["minecraft:spider"],
+    "biome": [
+    "biomesoplenty:spider_nest",
+    "minecraft:dark_forest"
+  ],
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:stray"],
+    "biome": [
+    "yungscavebiomes:frosted_caves"
+  ],
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:husk"],
+    "biome": [
+    "yungscavebiomes:lost_caves"
+  ],
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:stray","minecraft:husk","minecraft:spider","minecraft:zombie", "minecraft:zombie_villager","minecraft:creeper","minecraft:skeleton", "minecraft:enderman", "minecraft:witch"],
     "result": "deny"
   }
 ]

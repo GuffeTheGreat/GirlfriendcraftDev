@@ -30,28 +30,16 @@ let getModId = sort => {
     case 'bloodshroom':
     case 'enderbark':
         return 'tconstruct'
-    case 'mauve':
+    case 'alpha':
     case 'baobab':
-    case 'blackwood':
-    case 'cobalt':
-    case 'brimwood':
-    case    'cypress':
+    case 'cypress':
     case 'dead':
     case 'eucalyptus':
-    case 'joshua':
     case 'kapok':
-    case 'larch':
     case 'magnolia':
-    case 'maple':
-    case 'palm':
-    case 'pine':
     case 'redwood':
-    case 'socotra':
-    case 'willow':
-    case 'blue_bioshroom':
-    case 'yellow_bioshroom':
-    case 'green_bioshroom':
-    case 'pink_bioshroom':
+    case 'mauve':
+    case 'pine':
         return 'regions_unexplored'
     case 'grimwood':
     case 'aspen':
@@ -61,8 +49,18 @@ let getModId = sort => {
     case 'laurel':
     case 'rosewood':
         return 'atmospheric'
+    case 'pewen':
+    case 'thornwood':
+        return 'alexscaves'
     case 'river':
         return 'upgrade_aquatic'
+    case 'maple':
+        return 'autumnity'
+    case 'stone_pine':
+        return 'snifferplus'
+    case 'livingwood':
+    case 'dreamwood':
+        return 'botania'
     }
     
 }
@@ -90,7 +88,7 @@ let getWoodType = sort => (type) => {
         case 'wood':
             if (sort == 'pink_bioshroom' || sort == 'blue_bioshroom' || sort == 'yellow_bioshroom' || sort == 'green_bioshroom' || sort == 'crimson' || sort == 'warped') {
             return getModId(sort) + ":" + sort + '_hyphae';
-            } else if (sort == 'grimwood' || sort == 'rosewood' ) {
+            } else if (sort == 'grimwood' || sort == 'rosewood' || sort == 'livingwood'  || sort == 'dreamwood'  ) {
                 return getModId(sort) + ":" + sort
             } else {
             return getModId(sort) + ":" + sort + '_wood';
@@ -106,7 +104,7 @@ let getWoodType = sort => (type) => {
         case 'stripped_wood':
             if (sort == 'pink_bioshroom' || sort == 'blue_bioshroom' || sort == 'yellow_bioshroom' || sort == 'green_bioshroom' || sort == 'crimson' || sort == 'warped') {
             return getModId(sort) + ":" + 'stripped_' + sort + '_hyphae';
-            } else if (sort == 'grimwood' || sort == 'rosewood' ) {
+            } else if (sort == 'grimwood' || sort == 'rosewood' || sort == 'livingwood'  || sort == 'dreamwood'   ) {
                 return getModId(sort) + ":stripped_" + sort
             } else {
             return getModId(sort) + ":" + 'stripped_' + sort + '_wood';
@@ -204,6 +202,8 @@ let getWoodType = sort => (type) => {
 }
 
 let woodTypes = [
+
+    // Minecraft
     'oak',
     'birch',
     'jungle',
@@ -215,16 +215,20 @@ let woodTypes = [
     'crimson', 
     'warped', 
 
+    // Beachparty
     'palm',
 
+    // Quark
     'ancient',
     'blossom',
 
+    // VanillaBacport
     'pale_oak',
 
     'pine',
     'eucalyptus',
 
+    // Atmopsheric
     'aspen',
     'yucca',
     'morado',
@@ -232,7 +236,37 @@ let woodTypes = [
     'laurel',
     'rosewood',
 
-    //'river',
+    //Alexs Caves
+    'pewen',
+    'thornwood',
+
+    // Upgrade Aquatic
+    'river',
+
+    // C&C
+    'azalea',
+
+    // Snifferplus
+    'stone_pine',
+
+    // Autumnity
+    'maple',
+
+    // Botania
+    'livingwood',
+    'dreamwood',
+
+    //Regions Unexplored
+    //'alpha', 
+    'baobab', 
+    'cypress', 
+    'dead', 
+    'eucalyptus', 
+    'kapok', 
+    'magnolia', 
+    'redwood', 
+    'mauve', 
+    'pine',
 
 
     
@@ -485,14 +519,17 @@ ServerEvents.recipes(event => {
     // Block Stonecutting
     event.stonecutting(planksId, '#' + blocksId)
     event.stonecutting(stairsId, '#' + blocksId)
+    if (sort != 'alpha') {
     event.stonecutting(fenceId, '#' + blocksId)
     event.stonecutting(fenceGateId, '#' + blocksId)
+    if (sort != 'livingwood' && sort != 'dreamwood') {
     event.stonecutting(doorId, '#' + blocksId)
     event.stonecutting(trapdoorId, '#' + blocksId)
     event.stonecutting(pressurePlateId, '#' + blocksId)
     event.stonecutting(buttonId, '#' + blocksId)
     event.stonecutting(signId, '#' + blocksId)
     event.stonecutting(hangingSignId, '#' + blocksId)
+    }}
     event.stonecutting(verticalPlanksId, '#' + blocksId)
 if (sort != 'palm') {
     event.stonecutting(chairId, '#' + blocksId)
@@ -583,7 +620,7 @@ if (sort != 'palm') {
         // Planks Recipe 
         event.remove({ output: planksId }); 
         event.shapeless(
-            Item.of(planksId, 4), 
+            Item.of(planksId, 2), 
             [
                 '#'+logsId
             ]
@@ -614,7 +651,7 @@ if (sort != 'palm') {
             ],
             tool: { tag: 'forge:tools/axes' },
             result: [
-              { item: planksId, count : 6},
+              { item: planksId, count : 4},
             ]
           })
 
@@ -636,7 +673,7 @@ if (sort != 'palm') {
         ], {
             A: planksId
         });
-
+if (sort != 'alpha') {
         // Fence
         event.remove({ output: fenceId });
         event.shaped(Item.of(fenceId, 4), [
@@ -656,7 +693,7 @@ if (sort != 'palm') {
             A: planksId,
             B: 'minecraft:stick'
         });
-
+if (sort != 'livingwood' && sort != 'dreamwood') {
         // Door
         event.remove({ output: doorId });
         event.shaped(Item.of(doorId, 6), [
@@ -705,7 +742,7 @@ if (sort != 'palm') {
             A: planksId,
             B: 'minecraft:chain'
         });
-
+}}
         // Window
         event.remove({ output: windowId });
          event.shaped(Item.of(windowId, 3), [
@@ -751,7 +788,7 @@ if (sort != 'palm') {
     // Storage Blocks
 
     event.stonecutting(chestId, '#' + storageBlocksId)
-    if (sort != 'palm') {
+    if (sort != 'palm' && sort != 'livingwood' && sort != 'dreamwood' && sort != 'alpha') {
     event.stonecutting(cabinetId, '#' + storageBlocksId)
     }
     event.stonecutting(drawerId, '#' + storageBlocksId)
@@ -767,7 +804,7 @@ if (sort != 'palm') {
             A: planksId,
             B: shutterId
         });
-    if (sort != 'palm') {
+    if (sort != 'palm' && sort != 'livingwood' && sort != 'dreamwood' && sort != 'alpha') {
         event.shaped(cabinetId, [
             'AAA',
             'B B',

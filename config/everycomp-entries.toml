@@ -13,13 +13,13 @@
 			river = true
 
 		[types.wood_type.atmospheric]
-			grimwood = true
+			grimwood = false
 			rosewood = true
 			morado = true
 			yucca = true
 			aspen = true
 			laurel = true
-			kousa = true
+			kousa = false
 
 		[types.wood_type.netherexp]
 			claret = true
@@ -41,20 +41,20 @@
 
 		[types.wood_type.biomesoplenty]
 			fir = true
-			redwood = true
-			mahogany = true
+			redwood = false
+			mahogany = false
 			jacaranda = true
 			palm = false
 			willow = true
-			dead = true
-			magic = true
-			umbran = true
-			hellbark = true
+			dead = false
+			magic = false
+			umbran = false
+			hellbark = false
 
 		[types.wood_type.regions_unexplored]
 			alpha = true
 			baobab = true
-			blackwood = true
+			blackwood = false
 			blue_bioshroom = true
 			brimwood = true
 			cobalt = true
@@ -62,25 +62,22 @@
 			dead = true
 			eucalyptus = true
 			green_bioshroom = true
-			joshua = true
+			joshua = false
 			kapok = true
-			larch = true
+			larch = false
 			magnolia = true
-			maple = true
+			maple = false
 			mauve = true
 			palm = false
 			pine = true
 			pink_bioshroom = true
 			redwood = true
-			socotra = true
-			willow = true
+			socotra = false
+			willow = false
 			yellow_bioshroom = true
 
 		[types.wood_type.autumnity]
 			maple = true
-
-		[types.wood_type.meadow]
-			pine = false
 
 		[types.wood_type.tconstruct]
 			greenheart = true
@@ -88,17 +85,8 @@
 			bloodshroom = true
 			enderbark = true
 
-		[types.wood_type.betterarcheology]
-			rotten = true
-
 		[types.wood_type.beachparty]
 			palm = true
-
-		[types.wood_type.biomemakeover]
-			blighted_balsa = true
-			willow = true
-			swamp_cypress = true
-			ancient_oak = true
 
 		[types.wood_type.snifferplus]
 			stone_pine = true
@@ -193,9 +181,6 @@
 			yellow_blossom = true
 			red_blossom = true
 
-		[types.leaves_type.meadow]
-			pine = false
-
 		[types.leaves_type.tconstruct]
 			earth_slime = true
 			sky_slime = true
@@ -203,12 +188,6 @@
 
 		[types.leaves_type.beachparty]
 			palm = true
-
-		[types.leaves_type.biomemakeover]
-			blighted_balsa = true
-			willow = true
-			swamp_cypress = true
-			ancient_oak = true
 
 		[types.leaves_type.snifferplus]
 			stone_pine = true
@@ -277,12 +256,6 @@
 			livingrock = true
 			shimmerrock = true
 
-		[types.stone_type.meadow]
-			limestone = true
-
-		[types.stone_type.biomemakeover]
-			mesmerite = true
-
 		[types.stone_type.upgrade_aquatic]
 			coralstone = true
 
@@ -324,13 +297,6 @@
 			shutter = true
 			bench = true
 			chair = true
-
-		[entries.wood_type.hearth_and_home]
-			lattice = true
-			parquet = true
-			vertical_trim = true
-			trim = true
-			sanded_wood = true
 
 	[entries.leaves_type]
 
@@ -374,9 +340,4 @@
 			carved_bricks = true
 			pillar = true
 			brick_lattice = true
-
-		[entries.mud_type.betterarcheology]
-			cracked_brick_stairs = true
-			cracked_bricks = true
-			cracked_brick_slab = true
 

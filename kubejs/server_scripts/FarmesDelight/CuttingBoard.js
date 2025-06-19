@@ -25,6 +25,11 @@ ServerEvents.recipes(event => {
             input: { item: 'spelunkery:tangle_roots' },
             tool: { tag: 'forge:tools/knives' },
             result: [{ item: 'minecraft:stick', count: 3 }]
+        },
+        {
+            input: { item: 'minecraft:gravel' },
+            tool: { tag: 'minecraft:shovels' },
+            result: [{ item: 'minecraft:flint', chance: 0.5 }]
         }
         
       ]

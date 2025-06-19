@@ -1,0 +1,675 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creating_something"
+	group: ""
+	icon: "create:gearbox"
+	id: "5401438D35516144"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3B6B3BBB280E3377"
+				"43AC2A23DB9A7864"
+				"3B837F5F9DE5D387"
+			]
+			id: "4CE09A3447EA0D4C"
+			tasks: [{
+				id: "33ECB10B6FBCF5B3"
+				item: {
+					Count: 1
+					id: "spelunkery:portal_fluid_bottle"
+					tag: {
+						bool: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7A87251A4B1AC5FE"]
+			id: "3B837F5F9DE5D387"
+			tasks: [{
+				id: "43948B941340474B"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.0d
+		}
+		{
+			icon: "tconstruct:seared_melter"
+			id: "43AC2A23DB9A7864"
+			tasks: [
+				{
+					id: "241C9FC16EE7B6D2"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					icon: "tconstruct:seared_fuel_tank"
+					id: "475B134B91E87398"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(tconstruct:seared_tanks)"
+						}
+					}
+					title: "Seared Tank or Seared Fuel Gauge"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"3F4409B7D8AC9DF1"
+				"48E5466CCFEDCA8F"
+			]
+			icon: "minecraft:diamond"
+			id: "7A87251A4B1AC5FE"
+			tasks: [
+				{
+					id: "15196D56D5427310"
+					item: "spelunkery:rough_diamond"
+					type: "item"
+				}
+				{
+					id: "60D90377945FF2D5"
+					item: "spelunkery:diamond_grindstone"
+					type: "item"
+				}
+				{
+					id: "50DBDA2B79E238A4"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "Diamond Refining"
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			id: "071BE772AD2D6BFE"
+			tasks: [{
+				id: "23EEAA0C9BF5F0ED"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CE09A3447EA0D4C"]
+			icon: "minecraft:netherrack"
+			id: "15FB6D9CE9CE6F79"
+			tasks: [{
+				dimension: "minecraft:nether"
+				id: "4B15628FA6F297DC"
+				type: "dimension"
+			}]
+			title: "We need to go Deeper!"
+			x: 12.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["28620A8CC3571F98"]
+			id: "3B6B3BBB280E3377"
+			tasks: [{
+				count: 4L
+				id: "18A7DE503EB172D0"
+				item: { Count: 4, id: "botania:mana_powder" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7FDCEC8F5F5E2E39"
+				"1C605BF7148189DC"
+			]
+			icon: "minecraft:iron_ingot"
+			id: "3F4409B7D8AC9DF1"
+			tasks: [
+				{
+					id: "48E6D43516593759"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "1774F4AF0DB062A2"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0939BF8D7E8E337D"]
+			id: "7FDCEC8F5F5E2E39"
+			tasks: [{
+				id: "6502A31AE2C63BCE"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			description: ["Welcome to Girlfriendcraft! Hope you enjoy your time playing the Modpack :)"]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "628D7DAAD5E122BC"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "A Modpack by Guffe"
+			tasks: [{
+				id: "706C3F26D3897458"
+				title: "Welcome to Girlfriendcraft!"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["628D7DAAD5E122BC"]
+			description: [
+				"Mainly the Trees. In this Modpack, thanks to HT's Treechop Mod, breaking trees doesnt require you to climb up and break all the Logs. Instead repeatbly breaking the bottom log will result in the entire tree falling down. "
+				""
+				"Breaking the logs while holding shift with behave like in Vanilla"
+			]
+			icon: "minecraft:oak_log"
+			id: "5B49658A34A050FA"
+			shape: "rsquare"
+			subtitle: "Its going down!"
+			tasks: [{
+				count: 5L
+				id: "233EC491C6B8BD70"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
+					}
+				}
+				title: "Five Wooden Logs"
+				type: "item"
+			}]
+			title: "I am yelling Timber!!"
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5B49658A34A050FA"]
+			description: [
+				"One the most important early game resources in this Flint. Used for crafting Early tools. "
+				""
+				"If dont want to repeatbly break and replace the Gravel to get Flint out of it, an Recipe for Converting Gravel into Flint exist"
+			]
+			icon: "minecraft:flint"
+			id: "2ED0ED9902EE28CB"
+			shape: "rsquare"
+			subtitle: "Collect some Flint"
+			tasks: [
+				{
+					count: 3L
+					id: "648C6564BDA5DBC8"
+					item: { Count: 3, id: "minecraft:gravel" }
+					type: "item"
+				}
+				{
+					id: "4E11E6AECE490C83"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			title: "Early Game Resources"
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2ED0ED9902EE28CB"]
+			description: ["Combine Flint and Logs into a Crafting Table."]
+			id: "4936ECE7A876EEE4"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Havent i seen this recipe somewhere before?"
+			tasks: [{
+				id: "2C80182FAD68C462"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "This is a Crafting Table!"
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4936ECE7A876EEE4"]
+			description: ["To Increase Realism or Whatever, in this Pack instead of Making Wood then Stone tools. You get Flint tools ! :)"]
+			icon: {
+				Count: 1
+				id: "pickletweaks:flint_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0939BF8D7E8E337D"
+			rewards: [{
+				id: "4EF6E5C0ADE3A733"
+				item: {
+					Count: 1
+					id: "pickletweaks:flint_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}]
+						RepairCost: 1
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "No Wood or Stone"
+			tasks: [
+				{
+					id: "2A80708FBB3A880F"
+					item: {
+						Count: 1
+						id: "pickletweaks:flint_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5812DC5D9BC3CCD2"
+					item: {
+						Count: 1
+						id: "pickletweaks:flint_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "340C29A8E5651B01"
+					item: {
+						Count: 1
+						id: "pickletweaks:flint_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Flint Tools"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4936ECE7A876EEE4"]
+			id: "3AB1DF63B38E604B"
+			shape: "circle"
+			tasks: [{
+				id: "4AEA065189B7996B"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)"
+					}
+				}
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			title: "Not as Needed as Usual"
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1C605BF7148189DC"]
+			description: [
+				"Adventuring into the Caves, Magical Mushrooms begin to Populate the Caves. Collect these for later, their magical properties might be useful"
+				""
+				"Especially focus on Collecting the White Ones"
+			]
+			icon: "botania:white_mushroom"
+			id: "6B5A37B4A84DEC08"
+			size: 1.0d
+			subtitle: "Not for Consumption"
+			tasks: [{
+				id: "3ED2F7721E77B6D6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(botania:shimmering_mushrooms)"
+					}
+				}
+				title: "Any #botania:shimmering_mushrooms"
+				type: "item"
+			}]
+			title: "Mushroom Collecting"
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0939BF8D7E8E337D"]
+			id: "452678DFEEDCB39A"
+			shape: "rsquare"
+			tasks: [{
+				id: "2A242CBDFC4B991F"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4B97B1932CF4CC4E"]
+			description: [
+				"Craft the Pure Daisy, which marks the begining of the mod Botania."
+				""
+				"Botania is a &mTech&r Magic Mod, with Various Flowers that generate Mana from different sources, which you can use to infuse items or to fuel the Mods, Functionel Flora"
+				""
+				"This Quests Grants as a reward all Advancements associated with Botania, as the Guide Books is based on those, and the progression has been reshuffled."
+			]
+			icon: "botania:pure_daisy"
+			id: "17704F01629D8907"
+			rewards: [
+				{
+					id: "3397966CFD90D4B0"
+					item: {
+						Count: 1
+						id: "botania:lexicon"
+						tag: {
+							"botania:elven_unlock": 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/advancement grant @p through botania:main/root"
+					icon: {
+						Count: 1
+						id: "botania:lexicon"
+						tag: {
+							"botania:elven_unlock": 1b
+						}
+					}
+					id: "440272A9D3FA6410"
+					title: "Grant All Botania Advancements"
+					type: "command"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "3729B22F55110330"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1D13A9E7FF9D4345"
+					item: { Count: 8, id: "botania:livingrock" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4BA6DC13010E5533"
+					item: { Count: 8, id: "botania:livingwood" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			icon: "botania:diluted_pool"
+			id: "28620A8CC3571F98"
+			tasks: [
+				{
+					id: "6A712AD7DDEC3EA8"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "1CE959440E3A52EA"
+					item: "botania:diluted_pool"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"452678DFEEDCB39A"
+				"206475EF5FD3A5A6"
+				"6B5A37B4A84DEC08"
+			]
+			icon: "rootsclassic:altar"
+			id: "50BFBD97BA6C9BD8"
+			rewards: [{
+				id: "684489D8E0B92913"
+				item: "rootsclassic:brazier"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "38F452CAC055987D"
+					item: "rootsclassic:altar"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "711698C838724D73"
+					item: "rootsclassic:brazier"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"48E5466CCFEDCA8F"
+				"50BFBD97BA6C9BD8"
+			]
+			id: "4B97B1932CF4CC4E"
+			tasks: [{
+				id: "2045A843F340D769"
+				item: "rootsclassic:mundane_standing_stone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7FDCEC8F5F5E2E39"]
+			id: "3C9264DD2FB48943"
+			tasks: [
+				{
+					id: "2671C9643A2DCFB5"
+					item: "minecraft:smoker"
+					type: "item"
+				}
+				{
+					id: "372B0B2B77737C17"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0939BF8D7E8E337D"]
+			icon: "minecraft:deepslate"
+			id: "1C605BF7148189DC"
+			size: 2.0d
+			tasks: [{
+				id: "37902DB06AECCD44"
+				title: "Spelunking Time!"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1C605BF7148189DC"]
+			icon: "minecraft:grindstone"
+			id: "48E5466CCFEDCA8F"
+			tasks: [
+				{
+					id: "6CFB54EEEA852229"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:rough_gems_cheap)"
+						}
+					}
+					title: "Any #minecraft:rough_gems_cheap"
+					type: "item"
+				}
+				{
+					id: "63C878268C87E596"
+					item: "minecraft:grindstone"
+					type: "item"
+				}
+				{
+					id: "6B024BEEE48684DA"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:gems_cheap)"
+						}
+					}
+					title: "Any #minecraft:gems_cheap"
+					type: "item"
+				}
+			]
+			title: "Gem Refining"
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5B724EAF163B5F29"]
+			id: "206475EF5FD3A5A6"
+			rewards: [{
+				id: "27D8F3405E6A3657"
+				item: "rootsclassic:runic_tablet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06B678F07D0B8EEB"
+				item: "rootsclassic:verdant_sprig"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0939BF8D7E8E337D"]
+			icon: {
+				Count: 1
+				id: "pickletweaks:flint_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5B724EAF163B5F29"
+			tasks: [{
+				id: "0D18C6D43C5496A5"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)"
+					}
+				}
+				title: "Any #minecraft:hoes"
+				type: "item"
+			}]
+			title: "Time for Farming"
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["452678DFEEDCB39A"]
+			id: "4563E7D58602D6C2"
+			tasks: [
+				{
+					id: "477FA57289EF0F4D"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+				{
+					id: "29F9EC04130EF639"
+					item: "farmersdelight:canvas"
+					type: "item"
+				}
+				{
+					id: "546108F4821ABBE8"
+					item: "farmersdelight:rope"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			id: "54A98349A4AF01EE"
+			tasks: [{
+				id: "36994C79A7102909"
+				item: "botania:dandelifeon"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			id: "359DD18B1752518A"
+			tasks: [{
+				id: "526F216886941E94"
+				item: "botania:shulk_me_not"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			id: "1A3D2C56404F2CAC"
+			tasks: [{
+				id: "55DD04FE1DA66323"
+				item: "botania:spectrolus"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+	]
+	title: "Creating Something"
+}

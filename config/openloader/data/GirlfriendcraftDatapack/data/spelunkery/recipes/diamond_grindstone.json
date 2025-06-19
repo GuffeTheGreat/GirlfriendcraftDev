@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " , ",
+    "I-I",
+    "#O#"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "-": {
+      "item": "minecraft:polished_deepslate_slab"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    },
+    ",": {
+      "item": "spelunkery:rough_diamond"
+    },
+    "O": {
+      "item": "minecraft:grindstone"
+    }
+  },
+  "result": {
+    "item": "spelunkery:diamond_grindstone"
+  }
+}

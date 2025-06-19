@@ -114,12 +114,12 @@
         "path": "recipes/regions_unexplored"
       },
       {
-        "namespace": "conditional",
-        "path": "recipes/vinery"
+        "namespace": "botania",
+        "path": "recipes/petal_apothecary"
       },
       {
-        "namespace": "minecraft",
-        "path": "advancements"
+        "namespace": "conditional",
+        "path": "recipes/vinery"
       }
   ]
 }

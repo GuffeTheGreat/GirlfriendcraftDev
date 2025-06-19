@@ -1,0 +1,46 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:deep_lukewarm_ocean"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:lukewarm_ocean"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:deep_ocean"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:ocean"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:warm_ocean"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "regions_unexplored:hyacinth_deeps"
+      }
+    ]
+  ]
+}

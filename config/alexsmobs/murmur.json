@@ -1,0 +1,88 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:deep_dark"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:dripstone_caves"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:lush_caves"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "galosphere:lichen_caves"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "galosphere:crystal_canyons"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "biomesoplenty:glowing_grotto"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "quark:glimmering_weald"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "snifferplus:timeless_grotto"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "regions_unexplored:bioshroom_caves"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "regions_unexplored:prismachasm"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "regions_unexplored:ancient_delta"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "regions_unexplored:redstone_caves"
+      }
+    ]
+  ]
+}

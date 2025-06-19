@@ -1,4 +1,5 @@
 {
+	autofocus_id: "4936ECE7A876EEE4"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_journey_begins"
@@ -9,51 +10,14 @@
 	quest_links: [ ]
 	quests: [
 		{
-			icon: "minecraft:oak_log"
-			id: "5B49658A34A050FA"
-			tasks: [{
-				id: "233EC491C6B8BD70"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
-					}
-				}
-				title: "Any #minecraft:logs"
-				type: "item"
-			}]
-			title: "And It All Comes Falling Down"
-			x: -0.5d
-			y: 0.0d
-		}
-		{
 			id: "269F2E167E4C58D6"
 			tasks: [{
 				id: "1A155C2346FED5CC"
 				item: "minecraft:shulker_box"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			id: "3AB1DF63B38E604B"
-			tasks: [{
-				id: "4AEA065189B7996B"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)"
-					}
-				}
-				title: "Any #minecraft:beds"
-				type: "item"
-			}]
-			title: "Not as Needed as Usual"
-			x: 2.5d
-			y: 0.0d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
 			id: "1351E11BBB01DD0C"
@@ -62,8 +26,8 @@
 				item: "minecraft:pointed_dripstone"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			id: "73450E1EA10A0472"
@@ -72,8 +36,8 @@
 				item: "minecraft:gold_ore"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 0.0d
+			x: -4.0d
+			y: -0.5d
 		}
 	]
 	title: "The Journey Begins!"

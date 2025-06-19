@@ -1,0 +1,28 @@
+{
+  "type": "rootsclassic:ritual",
+  "effect": "rootsclassic:crafting",
+  "level": 1,
+  "color": "#92d62b",
+  "ingredients": [
+    {
+      "tag": "minecraft:flowers"
+    }
+  ],
+  "incenses": [
+    {
+      "tag": "botania:petals/white"
+    },
+    {
+      "tag": "botania:petals/white"
+    },
+    {
+      "tag": "botania:petals/white"
+    },
+    {
+      "tag": "botania:petals/white"
+    }
+  ],
+  "result": {
+    "item": "botania:pure_daisy"
+  }
+}
